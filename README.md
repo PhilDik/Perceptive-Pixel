@@ -1,72 +1,22 @@
-Smartphone as a Screen-Scanner: a Flat Matrix Capable of Reading Light
+# Perceptive Pixel
 
-A smartphone screen can be understood not only as a device for displaying images, but also as a potential optical matrix capable of reading the light that falls onto it. If its pixels operate in a two-phase mode — first emitting light, then switching into a sensing phase — the display could receive a ready-made “image” of the light distributed across its surface.
+## A bidirectional display with independently sensed angular regions
 
-The main limitation is that this image is tied to the plane of the screen.
+**Status: conceptual research proposal; no fabricated device or measured performance advantage.**
 
-In other words, the screen does not see the full volume of space at once like a camera with a lens. Instead, it reads the distribution of light across its own surface:
+Perceptive Pixel extends the Screen Scanner concept: a purpose-built display surface would emit light and acquire optical measurements, while several independently readable regions within each display pixel would provide different calibrated angular responses. Measurements across the array, illumination states and known display poses would support computational scene estimation.
 
-X coordinate on the screen
-Y coordinate on the screen
-brightness / color / frequency / phase of incoming light
+Read the [conceptual manuscript](PERCEPTIVE_PIXEL.md) for the architecture, measurement model, physical limits, related work and future evaluation criteria.
 
-However, depth and volume could still be reconstructed algorithmically if additional cues are available:
+The proposal includes reversible emitting/sensing elements, active illumination, motion-assisted reconstruction and an optional persistent model of an interacting hand or object. Three facets and alternating triangular arrangements are candidate geometries, not established optima. A normal display is not assumed to gain these capabilities through software alone.
 
-- how the glare changes when the phone moves
-- the angle at which the light arrives
-- how the brightness gradient is distributed
-- whether several frequencies, colors, or pulses are used
-- how the reflection shifts between frames
-- whether the shape of the illumination is known
+The revised manuscript makes four boundaries explicit:
 
-In this case, the screen becomes not just a flat scanner, but a flat input surface for reconstructing volume.
+- Each channel records an angularly weighted optical signal, not a ready-made scene pixel or depth value.
+- Active acquisition requires receivers to be sensitive while scene-return light is present. Ordinary display-frame alternation alone does not capture the earlier pulse after it has already returned.
+- More channels do not guarantee more independent information or more photons.
+- Bidirectional displays, lensless depth sensing and LED/OLED display-camera combinations already have close scientific and patent precedents. Novelty of the proposed implementation has not been established.
 
-A good formulation for the document:
+The earlier Screen Scanner text and September multi-facet extension are the conceptual lineage of this manuscript. This revision consolidates their scope and corrects their measurement assumptions. The historical repository path `No camera /screen sensitive` is retained as a short companion note; the manuscript is the authoritative description.
 
-Such a screen is not a camera in the classical sense: it has no lens that immediately forms an image of space. It receives a map of light on its own plane. However, with the right sensing algorithm, temporal modulation, device motion, or gradient analysis, this flat map can be used to reconstruct volumetric information about the environment in front of the screen.
-
-Even shorter:
-
-The screen receives a two-dimensional light map, but the algorithm can extract three-dimensional features from it.
-
-Core idea:
-
-A smartphone screen is not an eye, but a retina without a lens.
-With motion, modulation, and computation added, it begins to function as a spatial scanner.
-
-
-sameshit
-Смартфон как экран-сканер: плоская матрица, способная читать свет
-
-Экран смартфона можно рассматривать как потенциальную оптическую матрицу, которая способна не только показывать изображение, но и считывать падающий на неё свет. Если пиксели работают в двухтактном режиме — фаза свечения, затем фаза приёма — дисплей может получать готовую “картинку” света, падающего на его поверхность.
-
-Главное ограничение: это картинка, привязанная к плоскости экрана.
-
-То есть экран видит не весь объём сразу, как камера с объективом, а распределение света по своей поверхности:
-
-координата X на экране
-координата Y на экране
-яркость / цвет / частота / фаза падающего света
-
-Но объём действительно можно восстанавливать алгоритмически, если есть дополнительные признаки:
-
-- как меняется блик при движении телефона
-- под каким углом приходит свет
-- как распределяется градиент яркости
-- есть ли несколько частот / цветов / импульсов
-- как отражение сдвигается между кадрами
-- известна ли форма подсветки
-
-Тогда экран становится не просто плоским сканером, а плоским входом для реконструкции объёма.
-
-Хорошая фраза для документа:
-
-Такой экран не является камерой в классическом смысле: у него нет объектива, который сразу строит изображение пространства. Он получает карту света на собственной плоскости. Однако при правильном алгоритме считывания, временной модуляции, движении устройства или анализе градиентов эта плоская карта может использоваться для восстановления объёмной информации о среде перед экраном.
-
-И короче:
-
-Экран получает двумерную световую карту, но алгоритм может извлекать из неё трёхмерные признаки.
-
-Смысл сильный:
-смартфонный экран — это не глаз, а сетчатка без линзы.
-Но если добавить движение, модуляцию и вычисление — он начинает работать как сканер пространства.
+Future work is to specify a physical pixel and acquisition schedule, then compare one-, three- and four-region designs at matched optical, electrical and temporal budgets. These are evaluation requirements, not results reported by this repository.

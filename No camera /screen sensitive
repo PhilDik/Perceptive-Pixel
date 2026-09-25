@@ -1,16 +1,13 @@
-Supplement: Algorithmic Depth Reconstruction From a Flat Screen Matrix
+Screen Scanner: optical acquisition and computational depth
 
-A reversible smartphone screen does not directly receive a ready-made depth map. By itself, the screen surface receives only a two-dimensional optical map: the distribution of incoming light across the plane of the display. This map may include brightness, color, glare, gradients, reflections, temporal changes, and the response to known light patterns emitted by the screen itself.
+This companion note is superseded in detail by PERCEPTIVE_PIXEL.md at the repository root.
 
-However, depth can still be reconstructed algorithmically. If the display alternates between emitting known optical patterns and sensing the resulting light response, the system can compare what was emitted with what returned to the surface. A neural network can then be trained on pairs of data: the flat optical response recorded by the screen and the real depth map of the scene in front of it.
+A purpose-built reversible display can be considered an optical sensing surface. Its readings are weighted integrals of incoming light at detector locations. Without suitable angular or spatial encoding, those readings are not a focused image of objects in front of the display.
 
-In this model, the screen does not behave like a classical camera or a direct time-of-flight sensor. Instead, it becomes a flat optical input surface for learned reconstruction. The neural network learns to infer probable depth from indirect cues: glare shape, brightness falloff, reflection deformation, color shifts, scattering, temporal delay, motion of the phone, and changes produced by different blinking patterns.
+Depth estimation requires a calibrated acquisition model and measurements that distinguish the relevant scene configurations. Independently sensed angular regions, known illumination patterns, multiple array positions and temporal constraints are possible sources of such information. Their adequacy depends on geometry, noise, material reflectance, visibility and pose accuracy.
 
-The key limitation is ambiguity. A single static two-dimensional light map can correspond to many different three-dimensional scenes. Therefore, useful depth reconstruction requires additional information: multiple frames, controlled blinking patterns, different colors or frequencies, motion of the device, calibration data, and training on real depth measurements.
+In an interleaved active scheme, receiving pixels must observe the scene return while other pixels illuminate it. All sensing regions of a receiving pixel acquire their own channels; roles are assigned to complete pixels, not divided between their facets. An alternative fast pulse-and-gate scheme would require hardware that captures the return within its arrival window. Turning the whole display off and beginning an ordinary later display-frame exposure does not retain the earlier reflected light. Passive sensing under continuing external illumination is a separate mode.
 
-In this sense, the screen-scanner does not “see depth” directly. It collects a flat light-field trace, and the algorithm reconstructs a probable volumetric interpretation from it. The more active modulation, temporal sampling, and movement are used, the less the system depends on guesswork and the closer it becomes to a real depth-scanning device.
+A learned model may infer likely geometry and maintain a hand or object state across observations. It cannot guarantee recovery of distinctions absent from the measurements. Predicted, unobserved or ambiguous regions must remain distinguishable from geometry supported by current data.
 
-Short formula:
-
-The screen receives a 2D optical response.
-The algorithm reconstructs a probable 3D depth map.
+The architecture can omit a conventional image-forming lens. It remains an optical imaging/sensing system and requires purpose-built hardware. Neither lensless operation nor software reconstruction establishes new physics, a new device architecture, or a performance advantage by itself.
