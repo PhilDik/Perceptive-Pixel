@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite this technical publication and its specific Git commit. It describes a research concept with limited numerical demonstrations; it does not report a validated device or general scene-reconstruction system."
-title: "FacetSensus: Display-Integrated Optical Sensing for Scene Geometry and Surface Appearance"
+title: "FacetCensus: Display-Integrated Optical Sensing for Scene Geometry and Surface Appearance"
 authors:
   - family-names: Dik
     given-names: Philipp
-version: "2026.09.28"
+version: "2026.09.28.1"
 date-released: "2026-09-28"
 url: "https://github.com/PhilDik/Perceptive-Pixel"
 abstract: >-
@@ -21,10 +21,10 @@ keywords:
   - research concept
 preferred-citation:
   type: report
-  title: "FacetSensus: Display-Integrated Optical Sensing for Scene Geometry and Surface Appearance"
+  title: "FacetCensus: Display-Integrated Optical Sensing for Scene Geometry and Surface Appearance"
   authors:
     - family-names: Dik
       given-names: Philipp
   year: 2026
-  version: "2026.09.28"
+  version: "2026.09.28.1"
   url: "https://github.com/PhilDik/Perceptive-Pixel"

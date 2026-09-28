@@ -1,6 +1,6 @@
 # Proposed reconstruction and learning baseline
 
-Prepared 28 September 2026. **Design specification, not an implemented or trained FacetSensus reconstruction system.** The [main manuscript](../FACETSENSUS.md) defines the optical architecture. The [numerical study](../studies/layout-noise-2026-09-27/README.md) implements a much smaller two-patch inverse problem without learning or rotation.
+Prepared 28 September 2026. **Design specification, not an implemented or trained FacetCensus reconstruction system.** The [main manuscript](../FACETCENSUS.md) defines the optical architecture. The [numerical study](../studies/layout-noise-2026-09-27/README.md) implements a much smaller two-patch inverse problem without learning or rotation.
 
 ## Implemented restricted example
 

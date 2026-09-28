@@ -1,5 +1,12 @@
 # Change record
 
+## 2026.09.28.1 — FacetCensus naming update
+
+- Renamed FacetSensus to **FacetCensus**, combining *facet* and *census*, with the explanatory phrase **a census of surfaces** / **перепись поверхностей**.
+- Updated current documentation, citation metadata, the architecture figure and the report generator. The canonical manuscript is now `FACETCENSUS.md`; earlier filenames remain compatibility links, and the repository URL is unchanged.
+- Scientific methods, numerical data, results and limitations are unchanged. No new experiment or performance claim is introduced.
+- The preceding publication remains at [commit afec5da5bfc142e5fd1a83703cdb3bbc2713f638](https://github.com/PhilDik/Perceptive-Pixel/commit/afec5da5bfc142e5fd1a83703cdb3bbc2713f638); the original 25 September archive is also preserved byte-for-byte. This editorial version does not change the dates of those disclosures.
+
 ## 2026.09.28 — expanded technical publication
 
 - Added an explicit author-contribution note separating the proposed architecture, established ingredients and optional geometries/learning.

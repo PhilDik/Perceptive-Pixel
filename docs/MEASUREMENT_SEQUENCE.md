@@ -1,6 +1,6 @@
 # From changing light measurements to a scene map
 
-**Conceptual sequence, not an implemented general reconstruction algorithm.** The [main manuscript](../FACETSENSUS.md) describes the sensing architecture; the [reconstruction design](RECONSTRUCTION_DESIGN.md) specifies a candidate estimator and its evaluation.
+**Conceptual sequence, not an implemented general reconstruction algorithm.** The [main manuscript](../FACETCENSUS.md) describes the sensing architecture; the [reconstruction design](RECONSTRUCTION_DESIGN.md) specifies a candidate estimator and its evaluation.
 
 Сначала элементы панели действительно могут давать лишь грубые световые «пятна»: набор более сильных и более слабых сигналов. Однако такое пятно относится к показаниям приёмников, а не обязательно к отдельному предмету или точке пространства. Когда вся панель перемещается, меняются положения приёмников, направления их чувствительности и условия подсветки. Алгоритм сопоставляет эти изменения с несколькими возможными объяснениями сцены: где находятся поверхности и как они отражают свет. Затем он проверяет, какое объяснение предсказывает весь набор показаний, и уточняет карту. Цвет требует независимых спектральных измерений; три наклонные грани сами по себе не являются RGB. Новые наблюдения уточняют состояние карты, а не обязательно переобучают нейросеть. Сходные сигналы могут соответствовать разным сценам, поэтому неопределённые области нельзя автоматически считать восстановленными.
 

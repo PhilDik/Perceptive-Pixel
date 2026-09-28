@@ -39,7 +39,7 @@ This bounded check has not established a commercially available complete display
 
 Identify the physical receiver and accessible readout path in that panel's documentation. Establish raw channel access, timing, illumination control, sensitivity/noise and spectral overlap. Measure spatial/angular response and direct coupling. Then test whether those responses distinguish different scene geometries. A demonstration of brightness detection is an acquisition sanity check, not spatial reconstruction.
 
-Ordinary diagnostic registers, display memory readback, proximity gestures, contact fingerprint detection and a camera behind the display are different capabilities. Their existence cannot be substituted for the required receiver interface. No retail model has been verified as a ready-to-use FacetSensus sensor in this package; laboratory demonstrations are not procurement or SDK-availability claims.
+Ordinary diagnostic registers, display memory readback, proximity gestures, contact fingerprint detection and a camera behind the display are different capabilities. Their existence cannot be substituted for the required receiver interface. No retail model has been verified as a ready-to-use FacetCensus sensor in this package; laboratory demonstrations are not procurement or SDK-availability claims.
 
 ## Relation to the facet candidate
 

@@ -1,12 +1,12 @@
-# FacetSensus: the author's proposed contribution
+# FacetCensus: the author's proposed contribution
 
 Philipp Dik · conceptual formulation · prepared 28 September 2026
 
-This note identifies the proposals made in the [manuscript](../FACETSENSUS.md) and [reconstruction design](RECONSTRUCTION_DESIGN.md). Attribution here records what the author proposes in this project; it does not establish priority, novelty, successful implementation or measured advantage.
+This note identifies the proposals made in the [manuscript](../FACETCENSUS.md) and [reconstruction design](RECONSTRUCTION_DESIGN.md). Attribution here records what the author proposes in this project; it does not establish priority, novelty, successful implementation or measured advantage.
 
-**Working definition.** FacetSensus is a proposed architecture that combines raw, spatially mixed optical measurements from a display-associated matrix across registered panel motion and recorded illumination conditions, with the aim of estimating surface coordinates and appearance and updating a persistent, evidence-qualified scene state.
+**Working definition.** FacetCensus is a proposed architecture that combines raw, spatially mixed optical measurements from a display-associated matrix across registered panel motion and recorded illumination conditions, with the aim of estimating surface coordinates and appearance and updating a persistent, evidence-qualified scene state.
 
-**По-русски.** FacetSensus — предлагаемая архитектура, в которой матрица при дисплее регистрирует смешанные световые отклики. Их изменения при известном движении всей панели и записанных условиях освещения используются для совместной оценки координат поверхностей и их внешнего вида, а новые наблюдения уточняют сохраняемую модель сцены. Отдельный световой отклик не считается готовой точкой изображения или глубины; неопределённые и ненаблюдавшиеся участки остаются обозначенными как таковые.
+**По-русски.** FacetCensus — предлагаемая архитектура, в которой матрица при дисплее регистрирует смешанные световые отклики. Их изменения при известном движении всей панели и записанных условиях освещения используются для совместной оценки координат поверхностей и их внешнего вида, а новые наблюдения уточняют сохраняемую модель сцены. Отдельный световой отклик не считается готовой точкой изображения или глубины; неопределённые и ненаблюдавшиеся участки остаются обозначенными как таковые.
 
 ## Three concrete proposals
 
@@ -24,7 +24,7 @@ Three-facet pyramids, a particular facet angle or carrier layout, reversible emi
 
 ## Existing capabilities, proposed combination and unresolved evidence
 
-| What is already known | Proposed combination in FacetSensus | What remains unverified |
+| What is already known | Proposed combination in FacetCensus | What remains unverified |
 |---|---|---|
 | [Integrated OLED/photodiode panels](https://sid.onlinelibrary.wiley.com/doi/full/10.1002/jsid.786) demonstrate display-integrated photodetection; [photo-responsive displays](https://www.nature.com/articles/s41928-024-01151-x) demonstrate emitting/receiving operation and surface-pattern scanning. | Use calibrated display-associated measurements across registered poses as inputs to a persistent geometry-and-appearance estimate. | Whether a practical panel supplies sufficient remote-scene information, sensitivity, isolation and readout access. |
 | [BiDi Screen](https://dspace.mit.edu/entities/publication/0f809c3e-b842-4784-8302-217860d795f9) demonstrates display-associated angular acquisition and depth-aware interaction; [DiffuserCam](https://doi.org/10.1364/OPTICA.5.000001) demonstrates computational 3D imaging with another optical operator. | Fit geometry and surface appearance using the complete calibrated operator and registered acquisition sequence of the selected matrix. | General-scene identifiability, texture fidelity, useful working distance and robustness to calibration, lighting and pose errors. |

@@ -1,14 +1,16 @@
-# FacetSensus
+# FacetCensus
+
+**A census of surfaces — перепись поверхностей.**
 
 **Display-integrated optical sensing for scene geometry and surface appearance.**
 
-Research concept by Philipp Dik · technical publication `2026.09.28`
+Research concept by Philipp Dik · technical publication `2026.09.28.1`
 
-FacetSensus investigates how calibrated measurements across a display-associated sensing matrix, illumination states and registered panel motion could update a model of the visible environment: surfaces, appearance, motion, visibility and uncertainty. Planar photodiodes, dual-function light-responsive pixels and independently read optical regions are candidate implementations. A staggered three-facet pyramid is one example, not a requirement.
+FacetCensus investigates how calibrated measurements across a display-associated sensing matrix, illumination states and registered panel motion could update a model of the visible environment: surfaces, appearance, motion, visibility and uncertainty. Planar photodiodes, dual-function light-responsive pixels and independently read optical regions are candidate implementations. A staggered three-facet pyramid is one example, not a requirement.
 
 ![Complete system](figures/01-system.svg)
 
-Read the **[manuscript](FACETSENSUS.md)** or the **[Russian overview](OVERVIEW_RU.md)**. The scene illustrations are conceptual; no reconstructed environment or fabricated FacetSensus device is presented.
+Read the **[manuscript](FACETCENSUS.md)** or the **[Russian overview](OVERVIEW_RU.md)**. The scene illustrations are conceptual; no reconstructed environment or fabricated FacetCensus device is presented.
 
 ## Proposed implementation
 
@@ -53,4 +55,4 @@ The additional noisy study has its own [reproduction commands and pinned depende
 
 These scripts reproduce the numerical examples, not a complete scene reconstruction pipeline. Figures and numerical records are included for readers who do not run the code.
 
-Earlier public revisions used **Perceptive Pixel**; the repository URL is retained for continuity. This expanded technical publication is version **2026.09.28**. See the [change record](CHANGELOG.md) and [citation metadata](CITATION.cff); cite the specific Git commit to identify the exact published contents. The new results are not attributed to the earlier public revision.
+Earlier public revisions used **Perceptive Pixel** and **FacetSensus**; the repository URL and compatibility links are retained for continuity. Version **2026.09.28.1** adopts **FacetCensus**, from *facet* and *census*: a census of surfaces. This is a naming and editorial update to the expanded technical publication of 28 September 2026; its scientific methods and results are unchanged. See the [change record](CHANGELOG.md) and [citation metadata](CITATION.cff); cite the specific Git commit to identify the exact published contents. The new results are not attributed to the earlier public revision.

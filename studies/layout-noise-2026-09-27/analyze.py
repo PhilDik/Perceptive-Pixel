@@ -108,7 +108,7 @@ maxq=max(r['leakage_total_relative_change_n4_vs_n8'] for r in v['rows'])
 maxf=max(r['truth_forward'][s]['rgb_signal_relative_l2_n4_vs_n8'] for r in v['rows'] for s in ['central','grazing'])
 failed=[{'id':r['id'],'scene':r['scene'],'eta':r['optical_leakage_transmission'],'trials':[i for i,t in enumerate(r['estimates']) if not t['success']]} for r in rows if r['nonconverged']]
 (ROOT/'solver-flags.json').write_text(json.dumps(failed,indent=2),encoding='utf-8')
-report=f'''# FacetSensus: сдвиг, помехи соседей и точность глубины
+report=f'''# FacetCensus: сдвиг, помехи соседей и точность глубины
 
 27 сентября 2026. **Локальная вычислительная проверка, не измерения изготовленного дисплея.**
 

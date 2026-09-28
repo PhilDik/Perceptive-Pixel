@@ -1,6 +1,6 @@
-Screen Scanner / FacetSensus
+Screen Scanner / FacetCensus
 
-The current manuscript is FACETSENSUS.md at the repository root.
+The current manuscript is FACETCENSUS.md at the repository root.
 
 The architecture investigates scene geometry and surface appearance from calibrated measurements across a sensing matrix, illumination states and registered panel poses. Planar integrated receivers, dual-function pixels and multi-region optical responses are candidates. A pyramid carrier is not a prerequisite.
 
