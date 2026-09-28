@@ -1,0 +1,569 @@
+[
+  {
+    "tilt_deg": 30.0,
+    "scene": "central",
+    "eta": 0.0,
+    "triangle_median_mm": 4.771089174033833,
+    "diamond_median_mm": 5.968422444017378,
+    "triangle_median_bootstrap95_mm": [
+      3.874454854511786,
+      5.701279334346449
+    ],
+    "diamond_median_bootstrap95_mm": [
+      3.8301851978772135,
+      7.331099913644614
+    ],
+    "triangle_minus_diamond_median_mm": -1.1973332699835453,
+    "difference_bootstrap95_mm": [
+      -2.8142283268916337,
+      0.9702354543984993
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "central",
+    "eta": 1e-06,
+    "triangle_median_mm": 6.096433219854877,
+    "diamond_median_mm": 5.286886159569445,
+    "triangle_median_bootstrap95_mm": [
+      5.771882419660784,
+      6.424892306527885
+    ],
+    "diamond_median_bootstrap95_mm": [
+      3.815753305449455,
+      6.398268332841077
+    ],
+    "triangle_minus_diamond_median_mm": 0.809547060285432,
+    "difference_bootstrap95_mm": [
+      -0.3817445787095973,
+      2.38161353656956
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "central",
+    "eta": 0.0001,
+    "triangle_median_mm": 9.101635250124627,
+    "diamond_median_mm": 9.401324522479339,
+    "triangle_median_bootstrap95_mm": [
+      6.98991783932447,
+      10.711783416181305
+    ],
+    "diamond_median_bootstrap95_mm": [
+      8.296325433776625,
+      12.434770062470548
+    ],
+    "triangle_minus_diamond_median_mm": -0.299689272354712,
+    "difference_bootstrap95_mm": [
+      -3.495726159598663,
+      1.8235901315843535
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "oblique",
+    "eta": 0.0,
+    "triangle_median_mm": 1.0925956816714368,
+    "diamond_median_mm": 1.6651033252977747,
+    "triangle_median_bootstrap95_mm": [
+      0.8408580767219291,
+      1.4540656256976492
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.2997442691397012,
+      1.9701437412634348
+    ],
+    "triangle_minus_diamond_median_mm": -0.5725076436263379,
+    "difference_bootstrap95_mm": [
+      -0.9803059317795323,
+      -0.0194760516906479
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "oblique",
+    "eta": 1e-06,
+    "triangle_median_mm": 1.421840917317116,
+    "diamond_median_mm": 1.3340238928298724,
+    "triangle_median_bootstrap95_mm": [
+      0.706673987474705,
+      1.9001359606721309
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.0824424183033123,
+      1.7073155526271862
+    ],
+    "triangle_minus_diamond_median_mm": 0.0878170244872436,
+    "difference_bootstrap95_mm": [
+      -0.8068075514581414,
+      0.5856914902490178
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "oblique",
+    "eta": 0.0001,
+    "triangle_median_mm": 3.5792664683494344,
+    "diamond_median_mm": 3.3330650294008493,
+    "triangle_median_bootstrap95_mm": [
+      2.6443490903999134,
+      4.343448279241737
+    ],
+    "diamond_median_bootstrap95_mm": [
+      2.716633859441103,
+      4.506921139010181
+    ],
+    "triangle_minus_diamond_median_mm": 0.24620143894858515,
+    "difference_bootstrap95_mm": [
+      -1.4830470853692788,
+      1.1810950832342477
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "grazing",
+    "eta": 0.0,
+    "triangle_median_mm": 1.4066441962340601,
+    "diamond_median_mm": 1.1466089207786165,
+    "triangle_median_bootstrap95_mm": [
+      1.1781435525721795,
+      1.7080157314195077
+    ],
+    "diamond_median_bootstrap95_mm": [
+      0.9211187592333665,
+      1.4892101684754504
+    ],
+    "triangle_minus_diamond_median_mm": 0.2600352754554436,
+    "difference_bootstrap95_mm": [
+      -0.14533309451554555,
+      0.6444050074305134
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "grazing",
+    "eta": 1e-06,
+    "triangle_median_mm": 2.0079066968076784,
+    "diamond_median_mm": 1.7870359060531866,
+    "triangle_median_bootstrap95_mm": [
+      1.8603955035072879,
+      2.5068956315414486
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.1946250274395984,
+      2.057329585547574
+    ],
+    "triangle_minus_diamond_median_mm": 0.22087079075449179,
+    "difference_bootstrap95_mm": [
+      -0.11655840382995171,
+      1.000916279320394
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 30.0,
+    "scene": "grazing",
+    "eta": 0.0001,
+    "triangle_median_mm": 3.8645008537109957,
+    "diamond_median_mm": 4.502728949780279,
+    "triangle_median_bootstrap95_mm": [
+      3.02637588836698,
+      4.940165213853076
+    ],
+    "diamond_median_bootstrap95_mm": [
+      3.8272988848156846,
+      5.185719999263943
+    ],
+    "triangle_minus_diamond_median_mm": -0.638228096069283,
+    "difference_bootstrap95_mm": [
+      -1.8465833945724799,
+      0.6112546976575811
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "central",
+    "eta": 0.0,
+    "triangle_median_mm": 5.4881311543583635,
+    "diamond_median_mm": 4.216412529645083,
+    "triangle_median_bootstrap95_mm": [
+      3.3481324042009177,
+      6.464899487006242
+    ],
+    "diamond_median_bootstrap95_mm": [
+      3.4652403850286433,
+      5.321303460878692
+    ],
+    "triangle_minus_diamond_median_mm": 1.2717186247132801,
+    "difference_bootstrap95_mm": [
+      -0.9371667345877879,
+      2.5400749336172472
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "central",
+    "eta": 1e-06,
+    "triangle_median_mm": 5.452260618950152,
+    "diamond_median_mm": 4.8377578500773915,
+    "triangle_median_bootstrap95_mm": [
+      4.161314408431103,
+      6.091203496822487
+    ],
+    "diamond_median_bootstrap95_mm": [
+      4.44464365120013,
+      6.369109138057901
+    ],
+    "triangle_minus_diamond_median_mm": 0.6145027688727609,
+    "difference_bootstrap95_mm": [
+      -1.1931882000477656,
+      1.476536500144455
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "central",
+    "eta": 0.0001,
+    "triangle_median_mm": 10.083008588335797,
+    "diamond_median_mm": 9.293643017650641,
+    "triangle_median_bootstrap95_mm": [
+      8.349954703840076,
+      13.44594379614676
+    ],
+    "diamond_median_bootstrap95_mm": [
+      8.199514117383686,
+      9.888749634082973
+    ],
+    "triangle_minus_diamond_median_mm": 0.7893655706851561,
+    "difference_bootstrap95_mm": [
+      -1.0720281906214206,
+      4.112130820865948
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "oblique",
+    "eta": 0.0,
+    "triangle_median_mm": 1.3989840919744552,
+    "diamond_median_mm": 1.366025297394721,
+    "triangle_median_bootstrap95_mm": [
+      0.8453568772631073,
+      1.6512917101171354
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.1585134942775426,
+      1.681248523213842
+    ],
+    "triangle_minus_diamond_median_mm": 0.032958794579734274,
+    "difference_bootstrap95_mm": [
+      -0.6347397223375829,
+      0.3948772255174795
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "oblique",
+    "eta": 1e-06,
+    "triangle_median_mm": 1.414367643174618,
+    "diamond_median_mm": 1.5302305718717903,
+    "triangle_median_bootstrap95_mm": [
+      1.0252212806386893,
+      1.6911204402324493
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.2820664208068777,
+      1.799866350295467
+    ],
+    "triangle_minus_diamond_median_mm": -0.11586292869717241,
+    "difference_bootstrap95_mm": [
+      -0.6372589524240938,
+      0.2882679394164914
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "oblique",
+    "eta": 0.0001,
+    "triangle_median_mm": 2.8188788293191607,
+    "diamond_median_mm": 2.655250057630788,
+    "triangle_median_bootstrap95_mm": [
+      2.322851882281583,
+      3.4684497181457843
+    ],
+    "diamond_median_bootstrap95_mm": [
+      2.1758044089059787,
+      3.6962033641269905
+    ],
+    "triangle_minus_diamond_median_mm": 0.16362877168837286,
+    "difference_bootstrap95_mm": [
+      -1.0126524930174923,
+      0.9576836924959302
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "grazing",
+    "eta": 0.0,
+    "triangle_median_mm": 2.0768843851359415,
+    "diamond_median_mm": 1.3823519677456657,
+    "triangle_median_bootstrap95_mm": [
+      1.801051299316141,
+      2.45817719005486
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.045144683626594,
+      1.6068626566316038
+    ],
+    "triangle_minus_diamond_median_mm": 0.6945324173902758,
+    "difference_bootstrap95_mm": [
+      0.3508102112234025,
+      1.3163078802393766
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "grazing",
+    "eta": 1e-06,
+    "triangle_median_mm": 2.371896068938634,
+    "diamond_median_mm": 3.1647582469891056,
+    "triangle_median_bootstrap95_mm": [
+      1.84755052470061,
+      2.599334403234254
+    ],
+    "diamond_median_bootstrap95_mm": [
+      2.570459186265829,
+      4.311628043649389
+    ],
+    "triangle_minus_diamond_median_mm": -0.7928621780504717,
+    "difference_bootstrap95_mm": [
+      -1.995901255059562,
+      -0.10588116579805185
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 45.0,
+    "scene": "grazing",
+    "eta": 0.0001,
+    "triangle_median_mm": 4.674502796862243,
+    "diamond_median_mm": 5.781553343995259,
+    "triangle_median_bootstrap95_mm": [
+      3.836251363681823,
+      5.34453653132306
+    ],
+    "diamond_median_bootstrap95_mm": [
+      4.5979363153746045,
+      6.151727380587573
+    ],
+    "triangle_minus_diamond_median_mm": -1.1070505471330154,
+    "difference_bootstrap95_mm": [
+      -2.058339161393006,
+      0.16780596189980557
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "central",
+    "eta": 0.0,
+    "triangle_median_mm": 4.79934105383904,
+    "diamond_median_mm": 4.549360860515527,
+    "triangle_median_bootstrap95_mm": [
+      3.552575405573563,
+      5.567685623770271
+    ],
+    "diamond_median_bootstrap95_mm": [
+      3.1548851515413148,
+      5.129373898421505
+    ],
+    "triangle_minus_diamond_median_mm": 0.24998019332351262,
+    "difference_bootstrap95_mm": [
+      -1.2108119733618452,
+      1.8033113423996967
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "central",
+    "eta": 1e-06,
+    "triangle_median_mm": 6.018809389159241,
+    "diamond_median_mm": 5.5787660870522195,
+    "triangle_median_bootstrap95_mm": [
+      5.214815992525704,
+      6.996432566227817
+    ],
+    "diamond_median_bootstrap95_mm": [
+      4.908241110990282,
+      6.362432307927399
+    ],
+    "triangle_minus_diamond_median_mm": 0.44004330210702136,
+    "difference_bootstrap95_mm": [
+      -0.8381191058972148,
+      1.5960117854963252
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "central",
+    "eta": 0.0001,
+    "triangle_median_mm": 9.894445674553364,
+    "diamond_median_mm": 9.330743587988085,
+    "triangle_median_bootstrap95_mm": [
+      8.670158466543885,
+      11.7128248903614
+    ],
+    "diamond_median_bootstrap95_mm": [
+      7.863038552013567,
+      11.64393740359116
+    ],
+    "triangle_minus_diamond_median_mm": 0.5637020865652786,
+    "difference_bootstrap95_mm": [
+      -2.2643635952314405,
+      3.0878192476085786
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "oblique",
+    "eta": 0.0,
+    "triangle_median_mm": 1.0968555230164725,
+    "diamond_median_mm": 1.6285628479607013,
+    "triangle_median_bootstrap95_mm": [
+      0.879082575741819,
+      1.3195913981805665
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.3357191862770676,
+      1.81494357097408
+    ],
+    "triangle_minus_diamond_median_mm": -0.5317073249442288,
+    "difference_bootstrap95_mm": [
+      -0.8371820225472708,
+      -0.15521656174286136
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "oblique",
+    "eta": 1e-06,
+    "triangle_median_mm": 1.6282084246744297,
+    "diamond_median_mm": 2.006285664945203,
+    "triangle_median_bootstrap95_mm": [
+      1.3367355371750875,
+      2.0535048473262094
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.5710979912452814,
+      2.4002015773621537
+    ],
+    "triangle_minus_diamond_median_mm": -0.3780772402707733,
+    "difference_bootstrap95_mm": [
+      -0.8624517205998534,
+      0.2524214778421727
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "oblique",
+    "eta": 0.0001,
+    "triangle_median_mm": 2.7571911891928096,
+    "diamond_median_mm": 2.8267522325893104,
+    "triangle_median_bootstrap95_mm": [
+      2.4551084927180398,
+      4.19854296661692
+    ],
+    "diamond_median_bootstrap95_mm": [
+      2.127351416892907,
+      3.944480272288615
+    ],
+    "triangle_minus_diamond_median_mm": -0.06956104339650082,
+    "difference_bootstrap95_mm": [
+      -1.2328689240272392,
+      1.5258671464534341
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "grazing",
+    "eta": 0.0,
+    "triangle_median_mm": 1.8920892533496616,
+    "diamond_median_mm": 1.6531370340874982,
+    "triangle_median_bootstrap95_mm": [
+      1.5000000000000018,
+      2.4763002000746006
+    ],
+    "diamond_median_bootstrap95_mm": [
+      1.415642606740148,
+      2.4305991074209974
+    ],
+    "triangle_minus_diamond_median_mm": 0.23895221926216337,
+    "difference_bootstrap95_mm": [
+      -0.6205279873542361,
+      0.8921170782340416
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "grazing",
+    "eta": 1e-06,
+    "triangle_median_mm": 2.191746794697168,
+    "diamond_median_mm": 3.4238025497938835,
+    "triangle_median_bootstrap95_mm": [
+      1.690194082576542,
+      2.7436885670219535
+    ],
+    "diamond_median_bootstrap95_mm": [
+      2.665760989944358,
+      3.740953075095965
+    ],
+    "triangle_minus_diamond_median_mm": -1.2320557550967157,
+    "difference_bootstrap95_mm": [
+      -1.8321738204273925,
+      -0.3758662063645196
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  },
+  {
+    "tilt_deg": 51.84277341263095,
+    "scene": "grazing",
+    "eta": 0.0001,
+    "triangle_median_mm": 4.236917776817139,
+    "diamond_median_mm": 5.563359979479436,
+    "triangle_median_bootstrap95_mm": [
+      3.4283612875935328,
+      5.290311186907648
+    ],
+    "diamond_median_bootstrap95_mm": [
+      4.6596870719198105,
+      6.913360015475758
+    ],
+    "triangle_minus_diamond_median_mm": -1.3264422026622977,
+    "difference_bootstrap95_mm": [
+      -2.9648241842738927,
+      0.12557996806422542
+    ],
+    "interpretation": "exploratory marginal interval; not corrected for multiple comparisons"
+  }
+]

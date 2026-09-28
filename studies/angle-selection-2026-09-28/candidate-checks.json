@@ -1,0 +1,432 @@
+{
+  "flags": [
+    {
+      "area_mode": "fixed_base",
+      "alpha_deg": 0.0,
+      "mode": "pooled",
+      "scene": "oblique_2",
+      "trial_index": 43,
+      "fit": {
+        "z_mm": [
+          86.31357643113876,
+          199.99999999999997
+        ],
+        "rgb": [
+          [
+            0.6771287736103409,
+            0.27452888584235974,
+            0.2185938859746838
+          ],
+          [
+            2.1182548037563852e-15,
+            0.26779347973607526,
+            0.5119837416699389
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 162.50452625732729
+      }
+    },
+    {
+      "area_mode": "fixed_base",
+      "alpha_deg": 25.0,
+      "mode": "split",
+      "scene": "grazing_1",
+      "trial_index": 12,
+      "fit": {
+        "z_mm": [
+          20.030349240617056,
+          57.91368240121635
+        ],
+        "rgb": [
+          [
+            0.9999999999999699,
+            0.7497417731031503,
+            0.3082631746065837
+          ],
+          [
+            0.3085151554699452,
+            0.3288314745614375,
+            0.4791618556945703
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 450.99175409215445
+      }
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 0.0,
+      "mode": "pooled",
+      "scene": "oblique_0",
+      "trial_index": 9,
+      "fit": {
+        "z_mm": [
+          87.95009850975198,
+          199.99999999999997
+        ],
+        "rgb": [
+          [
+            0.5463437326386227,
+            0.25007641582834345,
+            0.2529458894604556
+          ],
+          [
+            0.28543978817757054,
+            0.5859426204712733,
+            0.5161860037272651
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 146.04752155202812
+      }
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 0.0,
+      "mode": "split",
+      "scene": "oblique_2",
+      "trial_index": 15,
+      "fit": {
+        "z_mm": [
+          85.4760733249944,
+          199.99999999997146
+        ],
+        "rgb": [
+          [
+            0.6603691878050784,
+            0.26664220515602555,
+            0.20998505912949958
+          ],
+          [
+            1.0954763319207328e-15,
+            0.2628296413222729,
+            0.5408953231532038
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 400.39434656212677
+      }
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 0.0,
+      "mode": "pooled",
+      "scene": "oblique_2",
+      "trial_index": 15,
+      "fit": {
+        "z_mm": [
+          85.61769822905123,
+          199.99999999999986
+        ],
+        "rgb": [
+          [
+            0.6634970439379315,
+            0.2655434682496496,
+            0.20979410827856787
+          ],
+          [
+            1.1333237665022698e-14,
+            0.31129017000322157,
+            0.5720077746303754
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 115.07495214698227
+      }
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 45.0,
+      "mode": "split",
+      "scene": "grazing_1",
+      "trial_index": 7,
+      "fit": {
+        "z_mm": [
+          20.000000000000004,
+          60.23429586469127
+        ],
+        "rgb": [
+          [
+            0.9999999999999999,
+            0.3925378138240315,
+            0.25719747175582586
+          ],
+          [
+            0.22073191991538127,
+            0.47599140345243934,
+            0.4714804969413894
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 434.2915909932435
+      }
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 45.0,
+      "mode": "split",
+      "scene": "grazing_1",
+      "trial_index": 19,
+      "fit": {
+        "z_mm": [
+          20.000000000000004,
+          64.03583840901273
+        ],
+        "rgb": [
+          [
+            0.9382851275618086,
+            0.14868133714400408,
+            0.22893921398193423
+          ],
+          [
+            0.26876197707115457,
+            0.6310920174420372,
+            0.48173058166679095
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 460.50379151895794
+      }
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 45.0,
+      "mode": "split",
+      "scene": "grazing_1",
+      "trial_index": 36,
+      "fit": {
+        "z_mm": [
+          20.000000002,
+          68.0
+        ],
+        "rgb": [
+          [
+            0.9989980930108162,
+            0.4590283076670682,
+            0.34031651414540576
+          ],
+          [
+            0.25959137039150054,
+            0.38585220546960924,
+            0.364766874143391
+          ]
+        ],
+        "success": true,
+        "weighted_residual": 425.54926333836056
+      }
+    }
+  ],
+  "quadrature": "16 to 64 sample points per facet, selected candidates and 3 of 12 scenes only",
+  "checks": [
+    {
+      "area_mode": "fixed_base",
+      "alpha_deg": 15,
+      "coupling_relative_l2": 0.009990325344314278,
+      "coupling_total_relative_difference": 0.009195733675799515,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 8.238456286226498e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.0216820208492976,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.9297155603553413e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.010069089534496811,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.000142314792759486,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.00317410922839656,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_base",
+      "alpha_deg": 20,
+      "coupling_relative_l2": 0.00985001287264209,
+      "coupling_total_relative_difference": 0.009047496677794633,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 8.096668983604209e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.021100255401407253,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.853943457915073e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.009677706708728806,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.00014312167131807794,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.0024575977463712206,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_base",
+      "alpha_deg": 25,
+      "coupling_relative_l2": 0.009657563264659772,
+      "coupling_total_relative_difference": 0.008843728453496662,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 7.898752592515248e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.02051906417131022,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.7701755480788765e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.00938884042943755,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.0001428379687507031,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.014573031236750467,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_base",
+      "alpha_deg": 30,
+      "coupling_relative_l2": 0.009402361567479901,
+      "coupling_total_relative_difference": 0.008572658807874788,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 7.629371296796853e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.019963045485766884,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.675353396345401e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.009178266593394824,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.00014131911904831116,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.0011219492219112226,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 15,
+      "coupling_relative_l2": 0.008150176594821871,
+      "coupling_total_relative_difference": 0.008014051471662837,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 7.958559902418924e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.021484942966111475,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.830574234246161e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.009988824764818105,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.00013739670307432684,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.003335766408611107,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 20,
+      "coupling_relative_l2": 0.007975070754836625,
+      "coupling_total_relative_difference": 0.007194458578850162,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 7.609772410443596e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.02075914759632269,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.6828684942487444e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.009545270342059098,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.00013437590270208135,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.0027224901256488465,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 25,
+      "coupling_relative_l2": 0.006682576283622562,
+      "coupling_total_relative_difference": 0.006408227918676284,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 7.160778745383549e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.020010865185568605,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.511999262493483e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.009195768662252135,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.00012928526231612952,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.016095741063196556,
+          "success": true
+        }
+      ]
+    },
+    {
+      "area_mode": "fixed_active",
+      "alpha_deg": 30,
+      "coupling_relative_l2": 0.0047676959556533635,
+      "coupling_total_relative_difference": 0.004623184973041028,
+      "selected_scenes": [
+        {
+          "scene": "central_0",
+          "forward_relative_l2": 6.610121961020026e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.019276608551294316,
+          "success": true
+        },
+        {
+          "scene": "oblique_0",
+          "forward_relative_l2": 2.3185707632583934e-05,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.008918844409294024,
+          "success": true
+        },
+        {
+          "scene": "grazing_0",
+          "forward_relative_l2": 0.00012215061075116128,
+          "fine_truth_coarse_inverse_noiseless_max_depth_error_mm": 0.0004959742795733746,
+          "success": true
+        }
+      ]
+    }
+  ],
+  "interpretation": "numerical convergence/consistency only; not uncertainty bounds for all configurations or real hardware"
+}

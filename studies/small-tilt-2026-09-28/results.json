@@ -1,0 +1,737 @@
+{
+  "status": "complete; synthetic optical diagnostic, not depth reconstruction",
+  "convention": "facet normal tilt from panel normal = side-face tilt from panel plane",
+  "layout": "all upright triangular bases; author vertical stagger; side 9 mm",
+  "angles_deg": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    30.0,
+    45.0
+  ],
+  "axis_depths_mm": [
+    5.0,
+    10.0,
+    20.0,
+    30.0,
+    50.0,
+    100.0,
+    200.0
+  ],
+  "quadrature": {
+    "periodic_samples_per_face": 256,
+    "coupling_samples_per_face": 16,
+    "selected_coupling_refinement": 64,
+    "finite_axis_samples_per_face": 64
+  },
+  "cone_scope": "20 and 40 degree half-angles are hypothetical hard acceptance cones, not measured optics",
+  "finite_axis_scope": "passive receiving response to a small diffuse patch with known -z normal; static finite panel; arbitrary source brightness; not active reconstruction or detection threshold",
+  "source_sha256": {
+    "geometry_benchmark.py": "b55d44bfdf746f3f4f31b0797bd8833f360d1c1f64f3855c4c29a969c2d9c84e",
+    "depth_benchmark.py": "634671cdfc2a646abd8c53f6095c1948ec3dedcdbf8470233adcedf7101a647e"
+  },
+  "rows": [
+    {
+      "alpha_deg": 5.0,
+      "height_mm": 0.2273022154697977,
+      "facet_area_mm2": 35.20800594547993,
+      "front_cosine_per_equal_area": 0.9961946980917455,
+      "front_total_per_equal_base": 1.0,
+      "angular_contrast_relative_to_45": 0.08748866352592401,
+      "channel_cv_at_theta10": 0.010908261875143054,
+      "direct_checkerboard_leakage_fraction": 0.0004287846409196374,
+      "periodic_reception": [
+        {
+          "theta_deg": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        {
+          "theta_deg": 15.0,
+          "min": 0.9659258262890682,
+          "max": 0.9659258262890684,
+          "mean": 0.9659258262890683
+        },
+        {
+          "theta_deg": 30.0,
+          "min": 0.8660254037844386,
+          "max": 0.8660254037844388,
+          "mean": 0.8660254037844387
+        },
+        {
+          "theta_deg": 45.0,
+          "min": 0.7071067811865475,
+          "max": 0.7071067811865476,
+          "mean": 0.7071067811865476
+        },
+        {
+          "theta_deg": 60.0,
+          "min": 0.5,
+          "max": 0.5000000000000002,
+          "mean": 0.5000000000000001
+        },
+        {
+          "theta_deg": 75.0,
+          "min": 0.25881904510252074,
+          "max": 0.2588190451025208,
+          "mean": 0.25881904510252074
+        },
+        {
+          "theta_deg": 85.0,
+          "min": 0.08715574274765812,
+          "max": 0.08715574274765818,
+          "mean": 0.08715574274765814
+        }
+      ],
+      "finite_axis_reception": {
+        "20": {
+          "weighted_reception": [
+            0.07888863927429207,
+            0.15321715163152927,
+            0.14409529205776414,
+            0.15771314822988244,
+            0.1312475227076123,
+            0.05363886464332783,
+            0.013869044474377005
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "40": {
+          "weighted_reception": [
+            0.45088135284974595,
+            0.5309420286097775,
+            0.5113941744301487,
+            0.4030269255489486,
+            0.18961990779217178,
+            0.05363886464332783,
+            0.013869044474377005
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "90": {
+          "weighted_reception": [
+            1.1358849078189996,
+            1.0278975238303512,
+            0.6596212551629859,
+            0.41409982992184363,
+            0.18961990779217178,
+            0.05363886464332783,
+            0.013869044474377005
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "alpha_deg": 10.0,
+      "height_mm": 0.4581109339984179,
+      "facet_area_mm2": 35.61510228365858,
+      "front_cosine_per_equal_area": 0.984807753012208,
+      "front_total_per_equal_base": 1.0,
+      "angular_contrast_relative_to_45": 0.17632698070846498,
+      "channel_cv_at_theta10": 0.02198480127258229,
+      "direct_checkerboard_leakage_fraction": 0.0017206128726882305,
+      "periodic_reception": [
+        {
+          "theta_deg": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        {
+          "theta_deg": 15.0,
+          "min": 0.9659258262890682,
+          "max": 0.9659258262890684,
+          "mean": 0.9659258262890683
+        },
+        {
+          "theta_deg": 30.0,
+          "min": 0.8660254037844386,
+          "max": 0.8660254037844388,
+          "mean": 0.8660254037844387
+        },
+        {
+          "theta_deg": 45.0,
+          "min": 0.7071067811865476,
+          "max": 0.7071067811865476,
+          "mean": 0.7071067811865476
+        },
+        {
+          "theta_deg": 60.0,
+          "min": 0.5,
+          "max": 0.5000000000000002,
+          "mean": 0.5000000000000001
+        },
+        {
+          "theta_deg": 75.0,
+          "min": 0.2588190451025207,
+          "max": 0.2588190451025208,
+          "mean": 0.25881904510252074
+        },
+        {
+          "theta_deg": 85.0,
+          "min": 0.08760391535331881,
+          "max": 0.11665582960253823,
+          "mean": 0.106277071362979
+        }
+      ],
+      "finite_axis_reception": {
+        "20": {
+          "weighted_reception": [
+            0.09975720281339404,
+            0.17147834356103442,
+            0.13676490964220575,
+            0.14931682449840414,
+            0.11392167727675741,
+            0.04911805105919847,
+            0.013869044195403052
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "40": {
+          "weighted_reception": [
+            0.49677100154260795,
+            0.5169695809729418,
+            0.5030152805636078,
+            0.3824580567006116,
+            0.1896198653421654,
+            0.05363886064336066,
+            0.013869044195403052
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "90": {
+          "weighted_reception": [
+            1.1358808366279571,
+            1.0278978000524601,
+            0.6596210535136579,
+            0.4140996861751436,
+            0.1896198653421654,
+            0.05363886064336066,
+            0.013869044195403052
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "alpha_deg": 15.0,
+      "height_mm": 0.6961524227066319,
+      "facet_area_mm2": 36.31130662280617,
+      "front_cosine_per_equal_area": 0.9659258262890683,
+      "front_total_per_equal_base": 1.0,
+      "angular_contrast_relative_to_45": 0.2679491924311227,
+      "channel_cv_at_theta10": 0.033408442219553906,
+      "direct_checkerboard_leakage_fraction": 0.003892497283690773,
+      "periodic_reception": [
+        {
+          "theta_deg": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        {
+          "theta_deg": 15.0,
+          "min": 0.9659258262890682,
+          "max": 0.9659258262890684,
+          "mean": 0.9659258262890683
+        },
+        {
+          "theta_deg": 30.0,
+          "min": 0.8660254037844386,
+          "max": 0.8660254037844388,
+          "mean": 0.8660254037844387
+        },
+        {
+          "theta_deg": 45.0,
+          "min": 0.7071067811865475,
+          "max": 0.7071067811865476,
+          "mean": 0.7071067811865476
+        },
+        {
+          "theta_deg": 60.0,
+          "min": 0.5,
+          "max": 0.5000000000000002,
+          "mean": 0.5000000000000001
+        },
+        {
+          "theta_deg": 75.0,
+          "min": 0.2588190451025207,
+          "max": 0.2588190451025208,
+          "mean": 0.25881904510252074
+        },
+        {
+          "theta_deg": 85.0,
+          "min": 0.11756738729089115,
+          "max": 0.14098402864394796,
+          "mean": 0.13111047941670798
+        }
+      ],
+      "finite_axis_reception": {
+        "20": {
+          "weighted_reception": [
+            0.13120191776738702,
+            0.1854916254609377,
+            0.1663193413180488,
+            0.13867887639817542,
+            0.09054432394154269,
+            0.03458966467238636,
+            0.01272839414398642
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "40": {
+          "weighted_reception": [
+            0.5469106455427141,
+            0.5060164874708069,
+            0.4784826911192405,
+            0.348770367957009,
+            0.18904038649282454,
+            0.053638853687909896,
+            0.013869043710585635
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "90": {
+          "weighted_reception": [
+            1.1363807117593654,
+            1.0278983173875567,
+            0.6596207045724908,
+            0.41409943621073253,
+            0.18961979146763125,
+            0.053638853687909896,
+            0.013869043710585635
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "refined_leakage_fraction": 0.003928623862442183,
+      "leakage_refinement_relative_change": 0.009195733675799653
+    },
+    {
+      "alpha_deg": 20.0,
+      "height_mm": 0.9456224072877139,
+      "facet_area_mm2": 37.32500189682849,
+      "front_cosine_per_equal_area": 0.9396926207859084,
+      "front_total_per_equal_base": 1.0,
+      "angular_contrast_relative_to_45": 0.36397023426620234,
+      "channel_cv_at_theta10": 0.04538053811916464,
+      "direct_checkerboard_leakage_fraction": 0.006974840867557206,
+      "periodic_reception": [
+        {
+          "theta_deg": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        {
+          "theta_deg": 15.0,
+          "min": 0.9659258262890684,
+          "max": 0.9659258262890684,
+          "mean": 0.9659258262890683
+        },
+        {
+          "theta_deg": 30.0,
+          "min": 0.8660254037844386,
+          "max": 0.8660254037844388,
+          "mean": 0.8660254037844387
+        },
+        {
+          "theta_deg": 45.0,
+          "min": 0.7071067811865475,
+          "max": 0.7071067811865476,
+          "mean": 0.7071067811865476
+        },
+        {
+          "theta_deg": 60.0,
+          "min": 0.5,
+          "max": 0.5000000000000002,
+          "mean": 0.5000000000000001
+        },
+        {
+          "theta_deg": 75.0,
+          "min": 0.25881904510252074,
+          "max": 0.2897354464944163,
+          "mean": 0.2732184116527543
+        },
+        {
+          "theta_deg": 85.0,
+          "min": 0.13668317771750169,
+          "max": 0.16068732062505708,
+          "mean": 0.15082951580279358
+        }
+      ],
+      "finite_axis_reception": {
+        "20": {
+          "weighted_reception": [
+            0.11134760124692088,
+            0.17342646004555518,
+            0.1759251399434213,
+            0.13340478828028382,
+            0.0723372104879863,
+            0.02088278485365667,
+            0.005908629486924681
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "40": {
+          "weighted_reception": [
+            0.5818917988017119,
+            0.522895803268718,
+            0.459920849252057,
+            0.31555610916287197,
+            0.17797262496771787,
+            0.05363884330042379,
+            0.013869042987193578
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "90": {
+          "weighted_reception": [
+            1.140428459622013,
+            1.0278991428456694,
+            0.6596201856508581,
+            0.4140990626657871,
+            0.18961968101081927,
+            0.05363884330042379,
+            0.013869042987193578
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "alpha_deg": 30.0,
+      "height_mm": 1.5,
+      "facet_area_mm2": 40.5,
+      "front_cosine_per_equal_area": 0.8660254037844387,
+      "front_total_per_equal_base": 1.0,
+      "angular_contrast_relative_to_45": 0.5773502691896257,
+      "channel_cv_at_theta10": 0.07198518843688516,
+      "direct_checkerboard_leakage_fraction": 0.016081808801953656,
+      "periodic_reception": [
+        {
+          "theta_deg": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        {
+          "theta_deg": 15.0,
+          "min": 0.9659258262890682,
+          "max": 0.9659258262890684,
+          "mean": 0.9659258262890683
+        },
+        {
+          "theta_deg": 30.0,
+          "min": 0.8660254037844386,
+          "max": 0.8660254037844388,
+          "mean": 0.8660254037844387
+        },
+        {
+          "theta_deg": 45.0,
+          "min": 0.7071067811865475,
+          "max": 0.7071067811865476,
+          "mean": 0.7071067811865476
+        },
+        {
+          "theta_deg": 60.0,
+          "min": 0.5,
+          "max": 0.5000000000000002,
+          "mean": 0.5000000000000001
+        },
+        {
+          "theta_deg": 75.0,
+          "min": 0.2721655269759087,
+          "max": 0.35703839145535543,
+          "mean": 0.32605798027489785
+        },
+        {
+          "theta_deg": 85.0,
+          "min": 0.16067778679539926,
+          "max": 0.19702711572813497,
+          "mean": 0.1778179736544457
+        }
+      ],
+      "finite_axis_reception": {
+        "20": {
+          "weighted_reception": [
+            0.21090648122855185,
+            0.1828528863597223,
+            0.15673668816487196,
+            0.08647496909985947,
+            0.030552502040078082,
+            0.0003984063003723584,
+            0.0
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        "40": {
+          "weighted_reception": [
+            0.6448095394132206,
+            0.5994234530524597,
+            0.3758619053173609,
+            0.2712156968850497,
+            0.13284569153656478,
+            0.04982767167459965,
+            0.013869040588021542
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "90": {
+          "weighted_reception": [
+            1.1660568765117374,
+            1.0308634702787522,
+            0.6596184737726379,
+            0.41409781977223753,
+            0.18961931319449124,
+            0.05363880878947891,
+            0.013869040588021542
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "alpha_deg": 45.0,
+      "height_mm": 2.5980762113533156,
+      "facet_area_mm2": 49.60216729135935,
+      "front_cosine_per_equal_area": 0.7071067811865476,
+      "front_total_per_equal_base": 1.0,
+      "angular_contrast_relative_to_45": 0.9999999999999999,
+      "channel_cv_at_theta10": 0.12468200376510494,
+      "direct_checkerboard_leakage_fraction": 0.03868034150134389,
+      "periodic_reception": [
+        {
+          "theta_deg": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "mean": 1.0
+        },
+        {
+          "theta_deg": 15.0,
+          "min": 0.9659258262890682,
+          "max": 0.9659258262890684,
+          "mean": 0.9659258262890683
+        },
+        {
+          "theta_deg": 30.0,
+          "min": 0.8660254037844386,
+          "max": 0.8660254037844388,
+          "mean": 0.8660254037844387
+        },
+        {
+          "theta_deg": 45.0,
+          "min": 0.7071067811865476,
+          "max": 0.7071067811865476,
+          "mean": 0.7071067811865476
+        },
+        {
+          "theta_deg": 60.0,
+          "min": 0.5,
+          "max": 0.6220084679281463,
+          "mean": 0.573491786777152
+        },
+        {
+          "theta_deg": 75.0,
+          "min": 0.3909057451756904,
+          "max": 0.45462500369294023,
+          "mean": 0.4277339204140446
+        },
+        {
+          "theta_deg": 85.0,
+          "min": 0.18898797755832764,
+          "max": 0.21589340740127763,
+          "mean": 0.2076363822388463
+        }
+      ],
+      "finite_axis_reception": {
+        "20": {
+          "weighted_reception": [
+            0.3099355934693338,
+            0.1868390855661232,
+            0.10582574566216414,
+            0.031479034259127826,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ]
+        },
+        "40": {
+          "weighted_reception": [
+            0.6699342426306646,
+            0.5823345580803694,
+            0.3283474282369346,
+            0.1836737167977695,
+            0.0683537306795835,
+            0.011668609922211274,
+            0.00024699949558884825
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "90": {
+          "weighted_reception": [
+            1.2715611156232038,
+            1.074033518883145,
+            0.6604135794686166,
+            0.4140936477533933,
+            0.18961807635327493,
+            0.05363869332533089,
+            0.013869032591882265
+          ],
+          "zero_response": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "refined_leakage_fraction": 0.038958777804617276,
+      "leakage_refinement_relative_change": 0.007146946566696097
+    }
+  ],
+  "elapsed_seconds": 9.55775719997473
+}

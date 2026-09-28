@@ -1,0 +1,13 @@
+Screen Scanner: optical acquisition and computational depth
+
+This companion note is superseded in detail by PERCEPTIVE_PIXEL.md at the repository root.
+
+A purpose-built reversible display can be considered an optical sensing surface. Its readings are weighted integrals of incoming light at detector locations. Without suitable angular or spatial encoding, those readings are not a focused image of objects in front of the display.
+
+Depth estimation requires a calibrated acquisition model and measurements that distinguish the relevant scene configurations. Independently sensed angular regions, known illumination patterns, multiple array positions and temporal constraints are possible sources of such information. Their adequacy depends on geometry, noise, material reflectance, visibility and pose accuracy.
+
+In an interleaved active scheme, receiving pixels must observe the scene return while other pixels illuminate it. All sensing regions of a receiving pixel acquire their own channels; roles are assigned to complete pixels, not divided between their facets. An alternative fast pulse-and-gate scheme would require hardware that captures the return within its arrival window. Turning the whole display off and beginning an ordinary later display-frame exposure does not retain the earlier reflected light. Passive sensing under continuing external illumination is a separate mode.
+
+A learned model may infer likely geometry and maintain a hand or object state across observations. It cannot guarantee recovery of distinctions absent from the measurements. Predicted, unobserved or ambiguous regions must remain distinguishable from geometry supported by current data.
+
+The architecture can omit a conventional image-forming lens. It remains an optical imaging/sensing system and requires purpose-built hardware. Neither lensless operation nor software reconstruction establishes new physics, a new device architecture, or a performance advantage by itself.

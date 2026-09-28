@@ -1,0 +1,632 @@
+{
+  "status": "parameters saved before fits",
+  "scope": "3 small diffuse patches, known count/area/world normals; all xyz and all three-band reflectances unknown",
+  "scenes": {
+    "separated_colours": {
+      "points_mm": [
+        [
+          -24.3,
+          -12.8,
+          48.6
+        ],
+        [
+          7.2,
+          18.4,
+          77.3
+        ],
+        [
+          27.6,
+          -5.1,
+          111.8
+        ]
+      ],
+      "rho": [
+        [
+          0.75,
+          0.16,
+          0.1
+        ],
+        [
+          0.12,
+          0.68,
+          0.21
+        ],
+        [
+          0.13,
+          0.22,
+          0.78
+        ]
+      ]
+    },
+    "near_oblique": {
+      "points_mm": [
+        [
+          -30.2,
+          14.6,
+          36.7
+        ],
+        [
+          18.1,
+          -20.3,
+          53.9
+        ],
+        [
+          33.5,
+          17.4,
+          83.2
+        ]
+      ],
+      "rho": [
+        [
+          0.61,
+          0.25,
+          0.11
+        ],
+        [
+          0.18,
+          0.73,
+          0.3
+        ],
+        [
+          0.2,
+          0.16,
+          0.64
+        ]
+      ]
+    },
+    "similar_colours_close": {
+      "points_mm": [
+        [
+          -8.1,
+          -2.9,
+          78.7
+        ],
+        [
+          4.7,
+          6.2,
+          84.3
+        ],
+        [
+          13.2,
+          -7.5,
+          97.6
+        ]
+      ],
+      "rho": [
+        [
+          0.45,
+          0.35,
+          0.3
+        ],
+        [
+          0.45,
+          0.35,
+          0.3
+        ],
+        [
+          0.45,
+          0.35,
+          0.3
+        ]
+      ]
+    }
+  },
+  "alphas": [
+    0,
+    15
+  ],
+  "area": "equal total sensitive area; tilted geometry shrunk by sqrt(cos(alpha)) at fixed center positions",
+  "modes": [
+    "static",
+    "translation",
+    "rigid"
+  ],
+  "pose_count": 5,
+  "patterns": "checker/columns/rows, each complemented: six patterns per pose",
+  "total_raw_readouts": 8640,
+  "recorded_aggregates": 2160,
+  "read_variance_per_aggregate": 16,
+  "spectral_bands": 3,
+  "energy": "one common total source energy divided across 5 poses,6 patterns,3 bands,24 emitting facets; never renormalize useful received light per configuration",
+  "poses": {
+    "static": [
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "translation": [
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          -20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "rigid": [
+      {
+        "R": [
+          [
+            0.984807753012208,
+            0.0,
+            -0.17364817766693033
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.17364817766693033,
+            0.0,
+            0.984807753012208
+          ]
+        ],
+        "t_mm": [
+          -20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            0.984807753012208,
+            0.0,
+            0.17364817766693033
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.17364817766693033,
+            0.0,
+            0.984807753012208
+          ]
+        ],
+        "t_mm": [
+          20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.984807753012208,
+            -0.17364817766693033
+          ],
+          [
+            0.0,
+            0.17364817766693033,
+            0.984807753012208
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.984807753012208,
+            0.17364817766693033
+          ],
+          [
+            0.0,
+            -0.17364817766693033,
+            0.984807753012208
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          20.0,
+          0.0
+        ]
+      },
+      {
+        "R": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "t_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "heldout_poses": [
+    {
+      "R": [
+        [
+          0.9961946980917455,
+          -0.007596123493895969,
+          -0.08682408883346517
+        ],
+        [
+          0.0,
+          0.9961946980917455,
+          -0.08715574274765817
+        ],
+        [
+          0.08715574274765817,
+          0.08682408883346517,
+          0.9924038765061041
+        ]
+      ],
+      "t_mm": [
+        -10.0,
+        -10.0,
+        0.0
+      ]
+    },
+    {
+      "R": [
+        [
+          0.9961946980917455,
+          0.007596123493895969,
+          0.08682408883346517
+        ],
+        [
+          0.0,
+          0.9961946980917455,
+          -0.08715574274765817
+        ],
+        [
+          -0.08715574274765817,
+          0.08682408883346517,
+          0.9924038765061041
+        ]
+      ],
+      "t_mm": [
+        10.0,
+        -10.0,
+        0.0
+      ]
+    },
+    {
+      "R": [
+        [
+          0.9961946980917455,
+          0.007596123493895969,
+          -0.08682408883346517
+        ],
+        [
+          0.0,
+          0.9961946980917455,
+          0.08715574274765817
+        ],
+        [
+          0.08715574274765817,
+          -0.08682408883346517,
+          0.9924038765061041
+        ]
+      ],
+      "t_mm": [
+        -10.0,
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "R": [
+        [
+          0.9961946980917455,
+          -0.007596123493895969,
+          0.08682408883346517
+        ],
+        [
+          0.0,
+          0.9961946980917455,
+          0.08715574274765817
+        ],
+        [
+          -0.08715574274765817,
+          -0.08682408883346517,
+          0.9924038765061041
+        ]
+      ],
+      "t_mm": [
+        10.0,
+        10.0,
+        0.0
+      ]
+    }
+  ],
+  "heldout_budget": "four new poses, same per-pose energy/readouts; diagnostic only, unused for fitting or start selection",
+  "truth_quadrature_n": 4,
+  "inverse_quadrature_n": 2,
+  "eta_primary": 1e-06,
+  "scale_e": 1987744766185.1309,
+  "trials": 3,
+  "starts": 6,
+  "max_nfev": 220,
+  "search_bounds_xyz_mm": [
+    [
+      -50,
+      -40,
+      25
+    ],
+    [
+      50,
+      40,
+      160
+    ]
+  ],
+  "rho_bounds": [
+    0,
+    1
+  ],
+  "success_diagnostic": "xyz RMSE <5mm AND reflectance RMSE <0.1; illustrative, not a measured device specification",
+  "initialization": "same six generic states for every case; seed28092863; no truth coordinates/colours supplied",
+  "noise": "Poisson raw signal+background, Gaussian read std4; observed-count variance weighting; independent noise per case",
+  "leakage": "hypothetical transmission, no physical suppression mechanism demonstrated",
+  "excluded": "unknown patch count/area/normals, extended textures, mutual scene occlusion, multiple/specular scattering, learned prior, pose estimation, dynamic mapping",
+  "shadowing": "panel shadowing omitted in differentiable inversion; separately audit truth configurations and reconstructed points",
+  "stress_tests": [
+    "separated_colours/15/rigid/eta=1e-4,3trials",
+    "separated_colours/15/rigid,0.5mm and0.5deg pose error,3trials"
+  ],
+  "source_sha256": "649405172fbfeb064ac6b521080bc49324a08c38306973e7302a688c27ee25d0"
+}

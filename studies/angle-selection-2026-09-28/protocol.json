@@ -1,0 +1,136 @@
+{
+  "status": "protocol fixed before simulation",
+  "angles_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60
+  ],
+  "scenes_selection": {
+    "central": {
+      "xy": [
+        [
+          -18.0,
+          -8.0
+        ],
+        [
+          18.0,
+          8.0
+        ]
+      ],
+      "z": [
+        111.3,
+        156.7
+      ]
+    },
+    "oblique": {
+      "xy": [
+        [
+          65.0,
+          -15.0
+        ],
+        [
+          95.0,
+          15.0
+        ]
+      ],
+      "z": [
+        80.7,
+        117.3
+      ]
+    },
+    "grazing": {
+      "xy": [
+        [
+          90.0,
+          -15.0
+        ],
+        [
+          110.0,
+          15.0
+        ]
+      ],
+      "z": [
+        30.3,
+        50.7
+      ]
+    }
+  },
+  "scenes_validation": {
+    "central_new": {
+      "xy": [
+        [
+          -14.0,
+          -6.0
+        ],
+        [
+          22.0,
+          11.0
+        ]
+      ],
+      "z": [
+        93.7,
+        147.3
+      ]
+    },
+    "oblique_new": {
+      "xy": [
+        [
+          55.0,
+          -18.0
+        ],
+        [
+          88.0,
+          13.0
+        ]
+      ],
+      "z": [
+        73.7,
+        126.3
+      ]
+    },
+    "grazing_new": {
+      "xy": [
+        [
+          84.0,
+          -12.0
+        ],
+        [
+          108.0,
+          18.0
+        ]
+      ],
+      "z": [
+        35.7,
+        57.3
+      ]
+    }
+  },
+  "primary_eta": 1e-06,
+  "other_eta": [
+    0.0,
+    1e-06,
+    0.0001
+  ],
+  "selection_trials": 32,
+  "validation_trials": 128,
+  "criterion": "equal weight across 3 near/wide scenes, mean absolute relative depth error over patches and noise trials; select smallest positive tilt within 10% of lowest positive-tilt score",
+  "planar_rule": "planar controls reported alongside, never excluded to force a faceted winner",
+  "validation_candidates": "selected positive tilt, positive minimum-score tilt, 15,30,45 degrees, and planar0; fixed after selection, before validation",
+  "sensor_scope": "ideal common sensitivity, 9mm triangular footprint, 4x4 verticalstagger, knownxy/area/normals, calibrated3bands, +/-20mm translations, no rotations",
+  "raw_readouts": "12 per whole receiver pixel/slot/band; 1728 overall; triangle3regions x4 subexposures",
+  "planar_pooled": "deterministic sum of the SAME 3 planar observations; read variance48 versus16 per splitregion; not single-read hardware",
+  "normalization": "primary fixed base; selected fixed-active-area geometry physically shrunk before photon computation",
+  "far_scope": "local information diagnostic only, fixed light budget and mm-sized patches, not included in angle selection",
+  "scale": 2236249240161.1646,
+  "source_sha256": "634671cdfc2a646abd8c53f6095c1948ec3dedcdbf8470233adcedf7101a647e"
+}

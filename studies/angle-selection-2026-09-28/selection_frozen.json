@@ -1,0 +1,92 @@
+{
+  "scores": [
+    {
+      "alpha_deg": 0,
+      "mode": "pooled",
+      "score": 0.04917030746645673
+    },
+    {
+      "alpha_deg": 0,
+      "mode": "split",
+      "score": 0.0489864715734307
+    },
+    {
+      "alpha_deg": 5,
+      "mode": "split",
+      "score": 0.04455995756534576
+    },
+    {
+      "alpha_deg": 10,
+      "mode": "split",
+      "score": 0.04285823263252162
+    },
+    {
+      "alpha_deg": 15,
+      "mode": "split",
+      "score": 0.035330061112601306
+    },
+    {
+      "alpha_deg": 20,
+      "mode": "split",
+      "score": 0.03349940373229777
+    },
+    {
+      "alpha_deg": 25,
+      "mode": "split",
+      "score": 0.0344887383304514
+    },
+    {
+      "alpha_deg": 30,
+      "mode": "split",
+      "score": 0.03694546433812582
+    },
+    {
+      "alpha_deg": 35,
+      "mode": "split",
+      "score": 0.03789124069379591
+    },
+    {
+      "alpha_deg": 40,
+      "mode": "split",
+      "score": 0.04299746818517269
+    },
+    {
+      "alpha_deg": 45,
+      "mode": "split",
+      "score": 0.04139606571774813
+    },
+    {
+      "alpha_deg": 50,
+      "mode": "split",
+      "score": 0.03956058752470132
+    },
+    {
+      "alpha_deg": 55,
+      "mode": "split",
+      "score": 0.035769364959030936
+    },
+    {
+      "alpha_deg": 60,
+      "mode": "split",
+      "score": 0.04283529479445885
+    }
+  ],
+  "best_positive_on_selection": {
+    "alpha_deg": 20,
+    "mode": "split",
+    "score": 0.03349940373229777
+  },
+  "smallest_within_10pct": {
+    "alpha_deg": 15,
+    "mode": "split",
+    "score": 0.035330061112601306
+  },
+  "validation_candidates": [
+    0,
+    15,
+    20,
+    30,
+    45
+  ],
+  "warning": "choice conditional on assumed model and eta; not a device optimum"
+}

@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "reference_algorithm": "Two-sided Moller-Trumbore intersections with the four triangular faces of every opaque neighbor",
+  "source_algorithm": "Convex solid intersection by four plane slabs",
+  "subdivisions": 4,
+  "samples_per_face": 16,
+  "directions_per_design": 224,
+  "angular_coverage": "0, 30, 60, 75, 77.5, 80, 82.5, 85 degrees at 15 degree azimuth spacing, plus 32 seeded off-grid directions at 75--85 degrees",
+  "facet_sample_rays_compared": 75264,
+  "individual_active_ray_masks_compared": 54144,
+  "maximum_channel_response_difference_mm2": 0.0,
+  "designs": {
+    "vertical": {
+      "pixel_area_mm2": 86.60254037844388,
+      "facet_areas_mm2": [
+        13.499999999999998,
+        13.499999999999998,
+        13.500000000000005
+      ],
+      "normal_analytic_check": "passed",
+      "equal_area_sample_centroid_check": "passed",
+      "periodicity_and_unique_neighbor_check": "passed",
+      "neighbor_counts": [
+        30
+      ],
+      "expanded_neighbor_counts": [
+        54
+      ],
+      "neighbor_cutoff_expansion_mm": 10.0,
+      "cutoff_expansion_changed_active_rays": 0,
+      "active_self_intersections": 0,
+      "individual_active_ray_mask_mismatches": 0,
+      "maximum_channel_response_difference_mm2": 0.0
+    },
+    "horizontal": {
+      "pixel_area_mm2": 86.60254037844388,
+      "facet_areas_mm2": [
+        13.499999999999998,
+        13.499999999999998,
+        13.500000000000005
+      ],
+      "normal_analytic_check": "passed",
+      "equal_area_sample_centroid_check": "passed",
+      "periodicity_and_unique_neighbor_check": "passed",
+      "neighbor_counts": [
+        30
+      ],
+      "expanded_neighbor_counts": [
+        54
+      ],
+      "neighbor_cutoff_expansion_mm": 10.0,
+      "cutoff_expansion_changed_active_rays": 0,
+      "active_self_intersections": 0,
+      "individual_active_ray_mask_mismatches": 0,
+      "maximum_channel_response_difference_mm2": 0.0
+    },
+    "square": {
+      "pixel_area_mm2": 86.60254037844388,
+      "facet_areas_mm2": [
+        13.499999999999998,
+        13.499999999999998,
+        13.500000000000005
+      ],
+      "normal_analytic_check": "passed",
+      "equal_area_sample_centroid_check": "passed",
+      "periodicity_and_unique_neighbor_check": "passed",
+      "neighbor_counts": [
+        24
+      ],
+      "expanded_neighbor_counts": [
+        48
+      ],
+      "neighbor_cutoff_expansion_mm": 10.0,
+      "cutoff_expansion_changed_active_rays": 0,
+      "active_self_intersections": 0,
+      "individual_active_ray_mask_mismatches": 0,
+      "maximum_channel_response_difference_mm2": 0.0
+    },
+    "rotated15": {
+      "pixel_area_mm2": 86.60254037844388,
+      "facet_areas_mm2": [
+        13.500000000000002,
+        13.500000000000004,
+        13.5
+      ],
+      "normal_analytic_check": "passed",
+      "equal_area_sample_centroid_check": "passed",
+      "periodicity_and_unique_neighbor_check": "passed",
+      "neighbor_counts": [
+        30
+      ],
+      "expanded_neighbor_counts": [
+        54
+      ],
+      "neighbor_cutoff_expansion_mm": 10.0,
+      "cutoff_expansion_changed_active_rays": 0,
+      "active_self_intersections": 0,
+      "individual_active_ray_mask_mismatches": 0,
+      "maximum_channel_response_difference_mm2": 0.0
+    },
+    "rotated30": {
+      "pixel_area_mm2": 86.60254037844388,
+      "facet_areas_mm2": [
+        13.499999999999996,
+        13.500000000000004,
+        13.499999999999998
+      ],
+      "normal_analytic_check": "passed",
+      "equal_area_sample_centroid_check": "passed",
+      "periodicity_and_unique_neighbor_check": "passed",
+      "neighbor_counts": [
+        30
+      ],
+      "expanded_neighbor_counts": [
+        54
+      ],
+      "neighbor_cutoff_expansion_mm": 10.0,
+      "cutoff_expansion_changed_active_rays": 0,
+      "active_self_intersections": 0,
+      "individual_active_ray_mask_mismatches": 0,
+      "maximum_channel_response_difference_mm2": 0.0
+    },
+    "quarter": {
+      "pixel_area_mm2": 86.60254037844388,
+      "facet_areas_mm2": [
+        13.499999999999998,
+        13.499999999999998,
+        13.500000000000005
+      ],
+      "normal_analytic_check": "passed",
+      "equal_area_sample_centroid_check": "passed",
+      "periodicity_and_unique_neighbor_check": "passed",
+      "neighbor_counts": [
+        28,
+        28
+      ],
+      "expanded_neighbor_counts": [
+        50,
+        50
+      ],
+      "neighbor_cutoff_expansion_mm": 10.0,
+      "cutoff_expansion_changed_active_rays": 0,
+      "active_self_intersections": 0,
+      "individual_active_ray_mask_mismatches": 0,
+      "maximum_channel_response_difference_mm2": 0.0
+    }
+  },
+  "differences": [],
+  "scope": "Algorithm agreement and geometry consistency for these deterministic cases; not an error bound on angular or face-area integration and not validation of material optics.",
+  "elapsed_seconds": 2.521
+}

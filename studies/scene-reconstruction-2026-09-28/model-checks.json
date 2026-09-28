@@ -1,0 +1,14 @@
+{
+  "analytic_xyz_jacobian_max_relative_error": 1.5439581351078567e-10,
+  "joint_rigid_transform_relative_error": 3.1656377735642773e-16,
+  "quadrature_relative_l2": {
+    "1_to_2": 0.0024815009212996626,
+    "2_to_4": 0.0006206570145264346,
+    "4_to_8": 0.00015517947938326835
+  },
+  "checked_scene_shadow_fraction": 0.0,
+  "background_pose_invariant": true,
+  "far_point_signal_ratio_10m_to_20m": 15.999888873240783,
+  "energy_exchange_max_row_sum": 0.00901598472751754,
+  "known_limits": "Selected configurations only; geometric optics and Lambertian point-patch assumption; no hardware validation."
+}

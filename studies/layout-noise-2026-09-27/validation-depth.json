@@ -1,0 +1,184 @@
+{
+  "status": "complete",
+  "source_sha256": "634671cdfc2a646abd8c53f6095c1948ec3dedcdbf8470233adcedf7101a647e",
+  "scope": "4 configurations at 45 degrees; truth-only central/grazing forward; no inverse rerun",
+  "geometry_definition": {
+    "base_area_mm2": 35.074028853269766,
+    "cell_area_mm2": 86.60254037844386,
+    "aligned_basis_mm": [
+      9.306048591020996,
+      9.306048591020996
+    ],
+    "shifted_definition": "same square basis as aligned, half vertical step on alternate columns",
+    "author_vertical_basis_mm": [
+      8.660254037844386,
+      10.0
+    ],
+    "author_vertical_shift_mm": 5.0,
+    "warning": "The former 8.660254 x 10 aligned triangular baseline is not used: its bases overlap."
+  },
+  "review": {
+    "fatal_code_error_found_by_static_review": false,
+    "visible": "Convex slab intersection is consistent. Ignoring endpoint-owner convex solids is valid only for outward-facing endpoint segments; kernel/exchange enforce positive cosines before visibility.",
+    "kernel": "Finite-facet average includes both cosines, mm^-2 to m^-2 factor, and other-pyramid visibility. Object patches remain point-position patches of fixed 1 mm^2 area and -z normal.",
+    "exchange": "Uses double facet average, receiving area/pi; nonnegative, energy and area-weighted reciprocity assertions retained.",
+    "readvariance": "12/k subexposures with 2 electron RMS each -> variance (12/k)*4 per aggregated facet; total 48 electron^2 per receiving pixel per slot/band for both k.",
+    "fit": "Bounds/interpolation/index mapping consistent. Uses data-derived weighted least squares, not exact Poisson-Gaussian likelihood. expected_background argument is unused; raw observed counts still include background for weights.",
+    "cautions": [
+      "Data-derived weights can bias fits at low signal; this is a stated estimator limit, not quadrature validation.",
+      "Information uses a pseudoinverse: near-zero singular values must not be interpreted as finite precision of an unidentifiable depth.",
+      "Base footprints and unit-cell area are matched; physical finite-array outer shapes differ within the allocated common envelope.",
+      "Only a conditional open-facet optical model is checked; real cover-stack leakage is not measured."
+    ]
+  },
+  "rows": [
+    {
+      "id": "triangle-aligned-45.000000",
+      "leakage_fraction_all_bands_n4": 0.04819008268515911,
+      "leakage_fraction_all_bands_n8": 0.04801633481835041,
+      "leakage_total_relative_change_n4_vs_n8": 0.0036185158127125905,
+      "leakage_vector_relative_l2_n4_vs_n8": 0.008116286163968948,
+      "exchange_matrix_relative_l2_n4_vs_n8": 0.011925693781744831,
+      "max_source_fraction_n4": 0.09844105466477737,
+      "max_source_fraction_n8": 0.09773319907331325,
+      "reciprocity_abs_error_n8_mm2": 2.220446049250313e-16,
+      "read_variance_per_aggregated_channel": 16.0,
+      "read_variance_sum_per_pixel": 48.0,
+      "truth_forward": {
+        "central": {
+          "operator_relative_l2_n4_vs_n8": 3.2830238538455714e-05,
+          "rgb_signal_relative_l2_n4_vs_n8": 3.1614203029711735e-05,
+          "rgb_signal_total_relative_change_n4_vs_n8": 2.831527111794338e-05,
+          "per_surface_relative_l2_n4_vs_n8": [
+            3.3701681106244675e-05,
+            1.8404832446049354e-05
+          ]
+        },
+        "grazing": {
+          "operator_relative_l2_n4_vs_n8": 0.0036824527971491975,
+          "rgb_signal_relative_l2_n4_vs_n8": 0.00331985511123662,
+          "rgb_signal_total_relative_change_n4_vs_n8": 0.0022145185605521554,
+          "per_surface_relative_l2_n4_vs_n8": [
+            0.00396084134957341,
+            0.0022306191612323596
+          ]
+        }
+      },
+      "elapsed_s": 3.9369717999361455
+    },
+    {
+      "id": "triangle-vertical-45.000000",
+      "leakage_fraction_all_bands_n4": 0.03868034150134389,
+      "leakage_fraction_all_bands_n8": 0.038958777804617276,
+      "leakage_total_relative_change_n4_vs_n8": 0.007146946566696185,
+      "leakage_vector_relative_l2_n4_vs_n8": 0.008078687524759109,
+      "exchange_matrix_relative_l2_n4_vs_n8": 0.011257529302127242,
+      "max_source_fraction_n4": 0.09312057251002198,
+      "max_source_fraction_n8": 0.09339525510997229,
+      "reciprocity_abs_error_n8_mm2": 1.1102230246251565e-16,
+      "read_variance_per_aggregated_channel": 16.0,
+      "read_variance_sum_per_pixel": 48.0,
+      "truth_forward": {
+        "central": {
+          "operator_relative_l2_n4_vs_n8": 3.280133526852213e-05,
+          "rgb_signal_relative_l2_n4_vs_n8": 3.15827113296588e-05,
+          "rgb_signal_total_relative_change_n4_vs_n8": 2.8241952383873045e-05,
+          "per_surface_relative_l2_n4_vs_n8": [
+            3.367454865936123e-05,
+            1.8379779785451506e-05
+          ]
+        },
+        "grazing": {
+          "operator_relative_l2_n4_vs_n8": 0.003961805405532724,
+          "rgb_signal_relative_l2_n4_vs_n8": 0.0035050932997663094,
+          "rgb_signal_total_relative_change_n4_vs_n8": 0.00231884574095272,
+          "per_surface_relative_l2_n4_vs_n8": [
+            0.004464719013943861,
+            3.0993288428449364e-05
+          ]
+        }
+      },
+      "elapsed_s": 3.9508917999919504
+    },
+    {
+      "id": "diamond-aligned-45.000000",
+      "leakage_fraction_all_bands_n4": 0.05017464976759866,
+      "leakage_fraction_all_bands_n8": 0.05023314799368812,
+      "leakage_total_relative_change_n4_vs_n8": 0.0011645343448674005,
+      "leakage_vector_relative_l2_n4_vs_n8": 0.0012151892651730912,
+      "exchange_matrix_relative_l2_n4_vs_n8": 0.007149890235674058,
+      "max_source_fraction_n4": 0.09695158522704872,
+      "max_source_fraction_n8": 0.09697208696088677,
+      "reciprocity_abs_error_n8_mm2": 1.1102230246251565e-16,
+      "read_variance_per_aggregated_channel": 12.0,
+      "read_variance_sum_per_pixel": 48.0,
+      "truth_forward": {
+        "central": {
+          "operator_relative_l2_n4_vs_n8": 7.961009980847785e-06,
+          "rgb_signal_relative_l2_n4_vs_n8": 7.539002855819288e-06,
+          "rgb_signal_total_relative_change_n4_vs_n8": 5.112545040400188e-06,
+          "per_surface_relative_l2_n4_vs_n8": [
+            8.192459342472727e-06,
+            3.960116801156442e-06
+          ]
+        },
+        "grazing": {
+          "operator_relative_l2_n4_vs_n8": 0.009031845087699804,
+          "rgb_signal_relative_l2_n4_vs_n8": 0.008049033084648086,
+          "rgb_signal_total_relative_change_n4_vs_n8": 0.003415988286021596,
+          "per_surface_relative_l2_n4_vs_n8": [
+            0.009921002601900467,
+            0.004158290595937605
+          ]
+        }
+      },
+      "elapsed_s": 8.860204700031318
+    },
+    {
+      "id": "diamond-vertical-45.000000",
+      "leakage_fraction_all_bands_n4": 0.03977193962519754,
+      "leakage_fraction_all_bands_n8": 0.03971232975562663,
+      "leakage_total_relative_change_n4_vs_n8": 0.0015010418662849833,
+      "leakage_vector_relative_l2_n4_vs_n8": 0.0023420792726745387,
+      "exchange_matrix_relative_l2_n4_vs_n8": 0.00498422101306394,
+      "max_source_fraction_n4": 0.09682063693061776,
+      "max_source_fraction_n8": 0.09663992622473885,
+      "reciprocity_abs_error_n8_mm2": 1.1102230246251565e-16,
+      "read_variance_per_aggregated_channel": 12.0,
+      "read_variance_sum_per_pixel": 48.0,
+      "truth_forward": {
+        "central": {
+          "operator_relative_l2_n4_vs_n8": 8.004133818649068e-06,
+          "rgb_signal_relative_l2_n4_vs_n8": 7.580193675632729e-06,
+          "rgb_signal_total_relative_change_n4_vs_n8": 5.10831833878589e-06,
+          "per_surface_relative_l2_n4_vs_n8": [
+            8.237697801255027e-06,
+            3.9740806607853956e-06
+          ]
+        },
+        "grazing": {
+          "operator_relative_l2_n4_vs_n8": 0.0019446216094134274,
+          "rgb_signal_relative_l2_n4_vs_n8": 0.0017190420876674688,
+          "rgb_signal_total_relative_change_n4_vs_n8": 0.00029525324348940365,
+          "per_surface_relative_l2_n4_vs_n8": [
+            0.002197199676688623,
+            2.1274509542923083e-05
+          ]
+        }
+      },
+      "elapsed_s": 8.820777100045234
+    }
+  ],
+  "elapsed_s": 25.7507877999451,
+  "worst_forward_n16_check": {
+    "id": "diamond-aligned-45.000000",
+    "scene": "grazing",
+    "operator_relative_l2_n8_vs_n16": 0.002958221648862684,
+    "rgb_signal_relative_l2_n8_vs_n16": 0.0026307140406492736,
+    "per_surface_relative_l2_n8_vs_n16": [
+      0.0032519901288171065,
+      0.0013424498873902187
+    ]
+  },
+  "source_unchanged_during_validation": true
+}

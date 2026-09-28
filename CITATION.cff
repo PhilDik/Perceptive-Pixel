@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite this technical publication and its specific Git commit. It describes a research concept with limited numerical demonstrations; it does not report a validated device or general scene-reconstruction system."
+title: "FacetSensus: Display-Integrated Optical Sensing for Scene Geometry and Surface Appearance"
+authors:
+  - family-names: Dik
+    given-names: Philipp
+version: "2026.09.28"
+date-released: "2026-09-28"
+url: "https://github.com/PhilDik/Perceptive-Pixel"
+abstract: >-
+  Research concept for environment geometry and surface appearance estimation
+  from calibrated display-associated optical measurements, illumination states
+  and registered panel motion. Planar receivers and multi-region pixels are
+  candidate implementations. Includes a prior-work review and limited numerical
+  examples; no fabricated device or textured-scene reconstruction is reported.
+keywords:
+  - display-integrated sensing
+  - computational imaging
+  - scene reconstruction
+  - surface appearance
+  - research concept
+preferred-citation:
+  type: report
+  title: "FacetSensus: Display-Integrated Optical Sensing for Scene Geometry and Surface Appearance"
+  authors:
+    - family-names: Dik
+      given-names: Philipp
+  year: 2026
+  version: "2026.09.28"
+  url: "https://github.com/PhilDik/Perceptive-Pixel"

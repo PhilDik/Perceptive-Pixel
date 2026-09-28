@@ -1,0 +1,23 @@
+{
+  "reason": "observed failure on close equal-colour patches and variable recovery on separated patches",
+  "selected_cases": [
+    [
+      0,
+      "separated_colours"
+    ],
+    [
+      0,
+      "similar_colours_close"
+    ],
+    [
+      15,
+      "separated_colours"
+    ],
+    [
+      15,
+      "similar_colours_close"
+    ]
+  ],
+  "conditions": "rigid trajectory; no noise; matched n=4 forward/inverse; same6genericstarts; max_nfev1000; eta1e-6",
+  "interpretation": "post-result numerical diagnosis only; truth never supplied as initialization; no physical uniqueness conclusion"
+}

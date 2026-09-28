@@ -1,13 +1,11 @@
-Screen Scanner: optical acquisition and computational depth
+Screen Scanner / FacetSensus
 
-This companion note is superseded in detail by PERCEPTIVE_PIXEL.md at the repository root.
+The current manuscript is FACETSENSUS.md at the repository root.
 
-A purpose-built reversible display can be considered an optical sensing surface. Its readings are weighted integrals of incoming light at detector locations. Without suitable angular or spatial encoding, those readings are not a focused image of objects in front of the display.
+The architecture investigates scene geometry and surface appearance from calibrated measurements across a sensing matrix, illumination states and registered panel poses. Planar integrated receivers, dual-function pixels and multi-region optical responses are candidates. A pyramid carrier is not a prerequisite.
 
-Depth estimation requires a calibrated acquisition model and measurements that distinguish the relevant scene configurations. Independently sensed angular regions, known illumination patterns, multiple array positions and temporal constraints are possible sources of such information. Their adequacy depends on geometry, noise, material reflectance, visibility and pose accuracy.
+In the reversible-pixel implementation, roles are assigned to whole pixels. A receiving pixel reads all its sensing regions separately while other pixels may illuminate the scene. Prompt active reflections must arrive during reception. Detector values are mixed optical measurements, not automatically focused image coordinates or depth.
 
-In an interleaved active scheme, receiving pixels must observe the scene return while other pixels illuminate it. All sensing regions of a receiving pixel acquire their own channels; roles are assigned to complete pixels, not divided between their facets. An alternative fast pulse-and-gate scheme would require hardware that captures the return within its arrival window. Turning the whole display off and beginning an ordinary later display-frame exposure does not retain the earlier reflected light. Passive sensing under continuing external illumination is a separate mode.
+Geometry and texture must be estimated using the calibrated measurement operator, visibility, spectral response and illumination. Observed appearance, intrinsic reflectance and inferred completion are distinct. New registered observations update the scene state; they need not retrain a fixed learned model.
 
-A learned model may infer likely geometry and maintain a hand or object state across observations. It cannot guarantee recovery of distinctions absent from the measurements. Predicted, unobserved or ambiguous regions must remain distinguishable from geometry supported by current data.
-
-The architecture can omit a conventional image-forming lens. It remains an optical imaging/sensing system and requires purpose-built hardware. Neither lensless operation nor software reconstruction establishes new physics, a new device architecture, or a performance advantage by itself.
+This is a research concept. The included calculations are limited examples and do not demonstrate a fabricated sensor or textured environment reconstruction.

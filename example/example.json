@@ -1,0 +1,3318 @@
+{
+  "summary": {
+    "kind": "Illustrative, noise-free geometric/radiometric calculation; no measured data",
+    "target_mm": [
+      20.0,
+      0.0,
+      150.0
+    ],
+    "best_grid_target_mm": [
+      20.0,
+      0.0,
+      150.0
+    ],
+    "true_shared_scale": 0.6,
+    "best_shared_scale": 0.5999999999999999,
+    "best_normalized_squared_residual": 4.694219286133432e-32,
+    "best_other_grid_target_mm": [
+      20.0,
+      0.0,
+      151.0
+    ],
+    "best_other_grid_normalized_squared_residual": 1.992356434878053e-06,
+    "channels": 144,
+    "grid_candidates": 8181,
+    "grid_x_mm": [
+      -20.0,
+      60.0,
+      1.0
+    ],
+    "grid_z_mm": [
+      100.0,
+      200.0,
+      1.0
+    ]
+  },
+  "parameters": {
+    "array_rows": 4,
+    "array_columns": 4,
+    "pitch_mm": 10.0,
+    "layout": "vertical column stagger; all base triangles point upward (+y)",
+    "odd_column_vertical_shift_mm": 5.0,
+    "column_spacing_mm": 8.660254037844386,
+    "vertical_pitch_mm": 10.0,
+    "pixel_centers_mm": [
+      [
+        -12.99038105676658,
+        -17.5,
+        0.0
+      ],
+      [
+        -4.3301270189221945,
+        -12.5,
+        0.0
+      ],
+      [
+        4.330127018922191,
+        -17.5,
+        0.0
+      ],
+      [
+        12.990381056766577,
+        -12.5,
+        0.0
+      ],
+      [
+        -12.99038105676658,
+        -7.5,
+        0.0
+      ],
+      [
+        -4.3301270189221945,
+        -2.5,
+        0.0
+      ],
+      [
+        4.330127018922191,
+        -7.5,
+        0.0
+      ],
+      [
+        12.990381056766577,
+        -2.5,
+        0.0
+      ],
+      [
+        -12.99038105676658,
+        2.5,
+        0.0
+      ],
+      [
+        -4.3301270189221945,
+        7.5,
+        0.0
+      ],
+      [
+        4.330127018922191,
+        2.5,
+        0.0
+      ],
+      [
+        12.990381056766577,
+        7.5,
+        0.0
+      ],
+      [
+        -12.99038105676658,
+        12.5,
+        0.0
+      ],
+      [
+        -4.3301270189221945,
+        17.5,
+        0.0
+      ],
+      [
+        4.330127018922191,
+        12.5,
+        0.0
+      ],
+      [
+        12.990381056766577,
+        17.5,
+        0.0
+      ]
+    ],
+    "pyramid_base_side_mm": 9.0,
+    "pyramid_height_mm": 1.5,
+    "pyramid_vertices_local_mm": [
+      [
+        3.181725716174721e-16,
+        5.196152422706632,
+        0.0
+      ],
+      [
+        -4.5,
+        -2.5980762113533165,
+        0.0
+      ],
+      [
+        4.499999999999999,
+        -2.5980762113533182,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.5
+      ]
+    ],
+    "facet_vertex_indices": [
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "periodic_base_coverage_fraction": 0.405,
+    "horizontal_normal_to_nearest_neighbor_angle_deg": 0.0,
+    "minimum_base_clearance_mm": 2.205771365940053,
+    "whole_array_translation_x_mm": [
+      -20.0,
+      0.0,
+      20.0
+    ],
+    "whole_array_rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "facet_tilt_deg": 30.0,
+    "facet_azimuth_deg": [
+      30.0,
+      150.0,
+      270.0
+    ],
+    "facet_normals": [
+      [
+        0.4330127018922193,
+        0.24999999999999994,
+        0.8660254037844387
+      ],
+      [
+        -0.4330127018922193,
+        0.24999999999999994,
+        0.8660254037844387
+      ],
+      [
+        -9.184850993605147e-17,
+        -0.49999999999999994,
+        0.8660254037844387
+      ]
+    ],
+    "facet_area_mm2": 13.5,
+    "target_area_mm2": 1.0,
+    "target_normal": [
+      0,
+      0,
+      -1
+    ],
+    "total_source_power_arbitrary_units_per_slot": 1,
+    "slot_A_emitters": "(row + column) even; other whole pixels receive on all 3 facets",
+    "slot_B_emitters": "(row + column) odd; other whole pixels receive on all 3 facets",
+    "pixel_indices": "zero-based row/column; pixel_id = 4*row + column",
+    "normalization": "All signals divided by maximum coefficient at true geometry and scale=1"
+  },
+  "selected_pixel": [
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_local_position_mm": [
+        -4.3301270189221945,
+        -2.5,
+        0.0
+      ],
+      "signals": [
+        0.4933606072990392,
+        0.3668573430672102,
+        0.4239306125292315
+      ],
+      "facet_fractions": [
+        0.3841927807687736,
+        0.285681387393391,
+        0.33012583183783534
+      ]
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_local_position_mm": [
+        -4.3301270189221945,
+        -2.5,
+        0.0
+      ],
+      "signals": [
+        0.5760903418886447,
+        0.4900406719387767,
+        0.5254082102516449
+      ],
+      "facet_fractions": [
+        0.36197055854655147,
+        0.3079036096156132,
+        0.3301258318378354
+      ]
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_local_position_mm": [
+        -4.3301270189221945,
+        -2.5,
+        0.0
+      ],
+      "signals": [
+        0.5883176775555233,
+        0.5716550809023422,
+        0.5716550809023422
+      ],
+      "facet_fractions": [
+        0.33974833632432916,
+        0.3301258318378354,
+        0.3301258318378354
+      ]
+    }
+  ],
+  "depth_curve": [
+    {
+      "z_mm": 100.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.013124481753763607,
+      "objective_profiled_x": 0.0033075328314410564,
+      "profiled_x_mm": 11.0,
+      "profiled_scale": 0.12644573590785127,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.19753086419753083
+    },
+    {
+      "z_mm": 101.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.012333224473878373,
+      "objective_profiled_x": 0.0030987544374340764,
+      "profiled_x_mm": 11.0,
+      "profiled_scale": 0.13114710818233416,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.20555140938271604
+    },
+    {
+      "z_mm": 102.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.011581285451843889,
+      "objective_profiled_x": 0.002906807864486064,
+      "profiled_x_mm": 11.0,
+      "profiled_scale": 0.13597995206488178,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.21381376000000007
+    },
+    {
+      "z_mm": 103.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.010866950972934712,
+      "objective_profiled_x": 0.002730779376570601,
+      "profiled_x_mm": 11.0,
+      "profiled_scale": 0.14094676139450024,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.22232272790123453
+    },
+    {
+      "z_mm": 104.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.010188578309065567,
+      "objective_profiled_x": 0.00256980336326108,
+      "profiled_x_mm": 11.0,
+      "profiled_scale": 0.14605005489754444,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.23108317234567904
+    },
+    {
+      "z_mm": 105.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.009544593168469093,
+      "objective_profiled_x": 0.0024024833382208627,
+      "profiled_x_mm": 12.0,
+      "profiled_scale": 0.15203763698801068,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.24009999999999995
+    },
+    {
+      "z_mm": 106.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.008933487191067905,
+      "objective_profiled_x": 0.0022361471569314942,
+      "profiled_x_mm": 12.0,
+      "profiled_scale": 0.15744291871041083,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.2493781649382716
+    },
+    {
+      "z_mm": 107.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.008353815494337532,
+      "objective_profiled_x": 0.0020840661537159305,
+      "profiled_x_mm": 12.0,
+      "profiled_scale": 0.16299265738901278,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.2589226686419754
+    },
+    {
+      "z_mm": 108.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.007804194273633187,
+      "objective_profiled_x": 0.001945480071127412,
+      "profiled_x_mm": 12.0,
+      "profiled_scale": 0.168689470065078,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.26873855999999996
+    },
+    {
+      "z_mm": 109.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.007283298460214944,
+      "objective_profiled_x": 0.0018196676957740988,
+      "profiled_x_mm": 12.0,
+      "profiled_scale": 0.1745359986673573,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.278830935308642
+    },
+    {
+      "z_mm": 110.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.006789859439540252,
+      "objective_profiled_x": 0.001705944852038237,
+      "profiled_x_mm": 12.0,
+      "profiled_scale": 0.1805349100037804,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.28920493827160487
+    },
+    {
+      "z_mm": 111.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0063226628317994,
+      "objective_profiled_x": 0.0015891502587418495,
+      "profiled_x_mm": 13.0,
+      "profiled_scale": 0.18762916742618735,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.29986576
+    },
+    {
+      "z_mm": 112.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.005880546336140484,
+      "objective_profiled_x": 0.0014683274608478863,
+      "profiled_x_mm": 13.0,
+      "profiled_scale": 0.19396554903597285,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.31081863901234574
+    },
+    {
+      "z_mm": 113.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.005462397639561189,
+      "objective_profiled_x": 0.0013590735672540395,
+      "profiled_x_mm": 13.0,
+      "profiled_scale": 0.20046274290327643,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.32206886123456785
+    },
+    {
+      "z_mm": 114.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0050671523910305796,
+      "objective_profiled_x": 0.0012607803803682779,
+      "profiled_x_mm": 13.0,
+      "profiled_scale": 0.20712351423188305,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.33362176
+    },
+    {
+      "z_mm": 115.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.004693792241039929,
+      "objective_profiled_x": 0.0011728702118880402,
+      "profiled_x_mm": 13.0,
+      "profiled_scale": 0.21395065310137046,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.3454827160493828
+    },
+    {
+      "z_mm": 116.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.004341342946463234,
+      "objective_profiled_x": 0.0010947943485980951,
+      "profiled_x_mm": 13.0,
+      "profiled_scale": 0.22094697445867711,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.3576571575308642
+    },
+    {
+      "z_mm": 117.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.004008872540331653,
+      "objective_profiled_x": 0.001008897541062756,
+      "profiled_x_mm": 14.0,
+      "profiled_scale": 0.22928176955966384,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.3701505600000001
+    },
+    {
+      "z_mm": 118.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0036954895658866792,
+      "objective_profiled_x": 0.0009230224334599453,
+      "profiled_x_mm": 14.0,
+      "profiled_scale": 0.23665303943824584,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.38296844641975303
+    },
+    {
+      "z_mm": 119.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0034003413740722513,
+      "objective_profiled_x": 0.0008466366886520852,
+      "profiled_x_mm": 14.0,
+      "profiled_scale": 0.2442023783259925,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.39611638716049385
+    },
+    {
+      "z_mm": 120.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.003122612483451821,
+      "objective_profiled_x": 0.0007792478445812596,
+      "profiled_x_mm": 14.0,
+      "profiled_scale": 0.2519326996356849,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.4096000000000001
+    },
+    {
+      "z_mm": 121.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00286152300138965,
+      "objective_profiled_x": 0.0007203875964417,
+      "profiled_x_mm": 14.0,
+      "profiled_scale": 0.25984694164135796,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.42342495012345677
+    },
+    {
+      "z_mm": 122.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.002616327105214034,
+      "objective_profiled_x": 0.0006689281653878429,
+      "profiled_x_mm": 15.0,
+      "profiled_scale": 0.26934249430301993,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.43759695012345684
+    },
+    {
+      "z_mm": 123.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.002386311581980465,
+      "objective_profiled_x": 0.0006019792234905798,
+      "profiled_x_mm": 15.0,
+      "profiled_scale": 0.2776648507012788,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.4521217599999999
+    },
+    {
+      "z_mm": 124.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.002170794425372679,
+      "objective_profiled_x": 0.0005433049892656066,
+      "profiled_x_mm": 15.0,
+      "profiled_scale": 0.28618039793124944,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.46700518716049383
+    },
+    {
+      "z_mm": 125.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0019691234882171687,
+      "objective_profiled_x": 0.0004924824200719578,
+      "profiled_x_mm": 15.0,
+      "profiled_scale": 0.29489217279065666,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.4822530864197532
+    },
+    {
+      "z_mm": 126.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0017806751890400414,
+      "objective_profiled_x": 0.0004491087873664928,
+      "profiled_x_mm": 15.0,
+      "profiled_scale": 0.30380323693031486,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.49787135999999993
+    },
+    {
+      "z_mm": 127.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0016048532710613921,
+      "objective_profiled_x": 0.00041280069567331806,
+      "profiled_x_mm": 15.0,
+      "profiled_scale": 0.312916676846003,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.5138659575308643
+    },
+    {
+      "z_mm": 128.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0014410876120015026,
+      "objective_profiled_x": 0.00036992090812295594,
+      "profiled_x_mm": 16.0,
+      "profiled_scale": 0.32392067659953894,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.5302428760493828
+    },
+    {
+      "z_mm": 129.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0012888330830623134,
+      "objective_profiled_x": 0.00032576194341836127,
+      "profiled_x_mm": 16.0,
+      "profiled_scale": 0.3334833882794698,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.54700816
+    },
+    {
+      "z_mm": 130.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0011475684554457873,
+      "objective_profiled_x": 0.0002884947499621257,
+      "profiled_x_mm": 16.0,
+      "profiled_scale": 0.34325820337963564,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.564167901234568
+    },
+    {
+      "z_mm": 131.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0010167953527775364,
+      "objective_profiled_x": 0.0002577708550453104,
+      "profiled_x_mm": 16.0,
+      "profiled_scale": 0.35324830696771525,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.5817282390123456
+    },
+    {
+      "z_mm": 132.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.000896037247816671,
+      "objective_profiled_x": 0.00023325817115124757,
+      "profiled_x_mm": 16.0,
+      "profiled_scale": 0.36345690894684146,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.59969536
+    },
+    {
+      "z_mm": 133.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0007848385018522664,
+      "objective_profiled_x": 0.0002074736371611283,
+      "profiled_x_mm": 17.0,
+      "profiled_scale": 0.3758610092513829,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.618075498271605
+    },
+    {
+      "z_mm": 134.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0006827634452103951,
+      "objective_profiled_x": 0.0001753502019643315,
+      "profiled_x_mm": 17.0,
+      "profiled_scale": 0.3865551565990301,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.6368749353086419
+    },
+    {
+      "z_mm": 135.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0005893954973239207,
+      "objective_profiled_x": 0.00014930437350182187,
+      "profiled_x_mm": 17.0,
+      "profiled_scale": 0.39747791398824606,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.6561
+    },
+    {
+      "z_mm": 136.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.000504336324848556,
+      "objective_profiled_x": 0.00012903309754652383,
+      "profiled_x_mm": 17.0,
+      "profiled_scale": 0.40863258993459833,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.6757570686419752
+    },
+    {
+      "z_mm": 137.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00042720503634320893,
+      "objective_profiled_x": 0.00011424728376238247,
+      "profiled_x_mm": 17.0,
+      "profiled_scale": 0.42002251777852123,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.6958525649382716
+    },
+    {
+      "z_mm": 138.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00035763741206900815,
+      "objective_profiled_x": 0.00010004888045424228,
+      "profiled_x_mm": 18.0,
+      "profiled_scale": 0.4339443206417699,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.7163929600000001
+    },
+    {
+      "z_mm": 139.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0002952851674998911,
+      "objective_profiled_x": 7.80030436058656e-05,
+      "profiled_x_mm": 18.0,
+      "profiled_scale": 0.4458574900338911,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.7373847723456789
+    },
+    {
+      "z_mm": 140.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0002398152491773051,
+      "objective_profiled_x": 6.133749626413071e-05,
+      "profiled_x_mm": 18.0,
+      "profiled_scale": 0.4580164071492095,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.7588345679012346
+    },
+    {
+      "z_mm": 141.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00019090916158214473,
+      "objective_profiled_x": 4.978756624540214e-05,
+      "profiled_x_mm": 18.0,
+      "profiled_scale": 0.4704245039740442,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.7807489599999998
+    },
+    {
+      "z_mm": 142.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00014826232373852915,
+      "objective_profiled_x": 4.310053665792363e-05,
+      "profiled_x_mm": 18.0,
+      "profiled_scale": 0.4830852373082858,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.803134609382716
+    },
+    {
+      "z_mm": 143.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00011158345430537966,
+      "objective_profiled_x": 3.6535222822080226e-05,
+      "profiled_x_mm": 19.0,
+      "profiled_scale": 0.4986470534329458,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.825998224197531
+    },
+    {
+      "z_mm": 144.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 8.059398395385537e-05,
+      "objective_profiled_x": 2.2995482702165032e-05,
+      "profiled_x_mm": 19.0,
+      "profiled_scale": 0.5118701466186387,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.8493465599999999
+    },
+    {
+      "z_mm": 145.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 5.5027493869942324e-05,
+      "objective_profiled_x": 1.4234027822371666e-05,
+      "profiled_x_mm": 19.0,
+      "profiled_scale": 0.5253567564780477,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.8731864197530864
+    },
+    {
+      "z_mm": 146.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 3.462917926309073e-05,
+      "objective_profiled_x": 1.0018870836463175e-05,
+      "profiled_x_mm": 19.0,
+      "profiled_scale": 0.5391104384839961,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.8975246538271607
+    },
+    {
+      "z_mm": 147.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 1.9155336802435143e-05,
+      "objective_profiled_x": 1.0128300223373794e-05,
+      "profiled_x_mm": 19.0,
+      "profiled_scale": 0.5531347729111806,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.9223681599999999
+    },
+    {
+      "z_mm": 148.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 8.37287494250214e-06,
+      "objective_profiled_x": 8.37287494250214e-06,
+      "profiled_x_mm": 20.0,
+      "profiled_scale": 0.5704636140973328,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.9477238834567903
+    },
+    {
+      "z_mm": 149.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 2.0588461397410224e-06,
+      "objective_profiled_x": 2.0588461397410224e-06,
+      "profiled_x_mm": 20.0,
+      "profiled_scale": 0.5850908485089675,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 0.9735988167901233
+    },
+    {
+      "z_mm": 150.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 4.694219286133432e-32,
+      "objective_profiled_x": 4.694219286133432e-32,
+      "profiled_x_mm": 20.0,
+      "profiled_scale": 0.5999999999999999,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.0
+    },
+    {
+      "z_mm": 151.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 1.992356434878053e-06,
+      "objective_profiled_x": 1.992356434878053e-06,
+      "profiled_x_mm": 20.0,
+      "profiled_scale": 0.6151947475394585,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.026934520493827
+    },
+    {
+      "z_mm": 152.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 7.840797941801856e-06,
+      "objective_profiled_x": 7.840797941801856e-06,
+      "profiled_x_mm": 20.0,
+      "profiled_scale": 0.6306787948864009,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.0544095130864202
+    },
+    {
+      "z_mm": 153.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 1.7358680158577028e-05,
+      "objective_profiled_x": 8.893498751572138e-06,
+      "profiled_x_mm": 21.0,
+      "profiled_scale": 0.6499063677717875,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.08243216
+    },
+    {
+      "z_mm": 154.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 3.0367459878075378e-05,
+      "objective_profiled_x": 8.747902167770578e-06,
+      "profiled_x_mm": 21.0,
+      "profiled_scale": 0.6660352768887888,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.1110096908641973
+    },
+    {
+      "z_mm": 155.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 4.6696339742533316e-05,
+      "objective_profiled_x": 1.240051858939185e-05,
+      "profiled_x_mm": 21.0,
+      "profiled_scale": 0.6824651351103295,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.1401493827160498
+    },
+    {
+      "z_mm": 156.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 6.618192886974757e-05,
+      "objective_profiled_x": 1.9671490619006425e-05,
+      "profiled_x_mm": 21.0,
+      "profiled_scale": 0.699199744906293,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.1698585600000002
+    },
+    {
+      "z_mm": 157.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 8.866791869511371e-05,
+      "objective_profiled_x": 3.0388628012255055e-05,
+      "profiled_x_mm": 21.0,
+      "profiled_scale": 0.7162429335248006,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.200144594567901
+    },
+    {
+      "z_mm": 158.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00011400477334411772,
+      "objective_profiled_x": 3.284524880698703e-05,
+      "profiled_x_mm": 22.0,
+      "profiled_scale": 0.7375056343961188,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.2310149056790118
+    },
+    {
+      "z_mm": 159.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00014204943387942465,
+      "objective_profiled_x": 3.7984688063145774e-05,
+      "profiled_x_mm": 22.0,
+      "profiled_scale": 0.7552370681318656,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.2624769600000003
+    },
+    {
+      "z_mm": 160.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0001726650357951795,
+      "objective_profiled_x": 4.6521378236278754e-05,
+      "profiled_x_mm": 22.0,
+      "profiled_scale": 0.7732891147602746,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.2945382716049383
+    },
+    {
+      "z_mm": 161.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00020572063915857275,
+      "objective_profiled_x": 5.829632843981013e-05,
+      "profiled_x_mm": 22.0,
+      "profiled_scale": 0.791665700252591,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.3272064019753083
+    },
+    {
+      "z_mm": 162.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00024109097082516574,
+      "objective_profiled_x": 6.956030655831105e-05,
+      "profiled_x_mm": 23.0,
+      "profiled_scale": 0.8147084445817668,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.3604889600000003
+    },
+    {
+      "z_mm": 163.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0002786561781797479,
+      "objective_profiled_x": 7.604806476770959e-05,
+      "profiled_x_mm": 23.0,
+      "profiled_scale": 0.833809685815284,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.3943936019753087
+    },
+    {
+      "z_mm": 164.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.000318301593878977,
+      "objective_profiled_x": 8.572686413311782e-05,
+      "profiled_x_mm": 23.0,
+      "profiled_scale": 0.8532478109076167,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.428928031604938
+    },
+    {
+      "z_mm": 165.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00035991751109538326,
+      "objective_profiled_x": 9.844979325593832e-05,
+      "profiled_x_mm": 23.0,
+      "profiled_scale": 0.8730268445681076,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.4641000000000004
+    },
+    {
+      "z_mm": 166.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00040339896878483465,
+      "objective_profiled_x": 0.00011407597751648609,
+      "profiled_x_mm": 23.0,
+      "profiled_scale": 0.8931508362665218,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.4999173056790125
+    },
+    {
+      "z_mm": 167.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00044864554652103195,
+      "objective_profiled_x": 0.00012442055231836965,
+      "profiled_x_mm": 24.0,
+      "profiled_scale": 0.9184901312399141,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.536387794567901
+    },
+    {
+      "z_mm": 168.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0004955611684612556,
+      "objective_profiled_x": 0.0001351412585222191,
+      "profiled_x_mm": 24.0,
+      "profiled_scale": 0.9393847436082557,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.5735193600000006
+    },
+    {
+      "z_mm": 169.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0005440539160274436,
+      "objective_profiled_x": 0.000148724484323052,
+      "profiled_x_mm": 24.0,
+      "profiled_scale": 0.9606370440010937,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.6113199427160496
+    },
+    {
+      "z_mm": 170.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0005940358489053571,
+      "objective_profiled_x": 0.0001650398744395161,
+      "profiled_x_mm": 24.0,
+      "profiled_scale": 0.9822511806320466,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.6497975308641974
+    },
+    {
+      "z_mm": 171.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0006454228339830943,
+      "objective_profiled_x": 0.0001813468257632489,
+      "profiled_x_mm": 25.0,
+      "profiled_scale": 1.0095935489363514,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.6889601599999995
+    },
+    {
+      "z_mm": 172.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0006981343818669974,
+      "objective_profiled_x": 0.00019302571197759465,
+      "profiled_x_mm": 25.0,
+      "profiled_scale": 1.0320168245430845,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.72881591308642
+    },
+    {
+      "z_mm": 173.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0007520934906302922,
+      "objective_profiled_x": 0.00020739700942414688,
+      "profiled_x_mm": 25.0,
+      "profiled_scale": 1.0548149774671063,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.769372920493827
+    },
+    {
+      "z_mm": 174.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0008072264964647663,
+      "objective_profiled_x": 0.0002243400257693799,
+      "profiled_x_mm": 25.0,
+      "profiled_scale": 1.077992254675458,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.8106393599999995
+    },
+    {
+      "z_mm": 175.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0008634629309217375,
+      "objective_profiled_x": 0.0002437388541441259,
+      "profiled_x_mm": 25.0,
+      "profiled_scale": 1.101552927877985,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.8526234567901239
+    },
+    {
+      "z_mm": 176.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0009207353844425082,
+      "objective_profiled_x": 0.00025796436163043487,
+      "profiled_x_mm": 26.0,
+      "profiled_scale": 1.1314689647757625,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.89533348345679
+    },
+    {
+      "z_mm": 177.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0009789793758924867,
+      "objective_profiled_x": 0.00027306225744339865,
+      "profiled_x_mm": 26.0,
+      "profiled_scale": 1.1558873232580582,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.9387777599999996
+    },
+    {
+      "z_mm": 178.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0010381332278264182,
+      "objective_profiled_x": 0.000290581297143026,
+      "profiled_x_mm": 26.0,
+      "profiled_scale": 1.1807025039940602,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 1.982964653827161
+    },
+    {
+      "z_mm": 179.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0010981379472245634,
+      "objective_profiled_x": 0.00031041403001804226,
+      "profiled_x_mm": 26.0,
+      "profiled_scale": 1.2059188774479745,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.0279025797530865
+    },
+    {
+      "z_mm": 180.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.001158937111451899,
+      "objective_profiled_x": 0.0003287981113038714,
+      "profiled_x_mm": 27.0,
+      "profiled_scale": 1.2380740730018787,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.0736
+    },
+    {
+      "z_mm": 181.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.001220476759203755,
+      "objective_profiled_x": 0.00034456860617573543,
+      "profiled_x_mm": 27.0,
+      "profiled_scale": 1.2641887573137252,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.1200654241975316
+    },
+    {
+      "z_mm": 182.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0012827052862122508,
+      "objective_profiled_x": 0.00036261887414326444,
+      "profiled_x_mm": 27.0,
+      "profiled_scale": 1.290718371844044,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.1673074093827163
+    },
+    {
+      "z_mm": 183.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0013455733454983796,
+      "objective_profiled_x": 0.0003828492512125781,
+      "profiled_x_mm": 27.0,
+      "profiled_scale": 1.317667385816829,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.2153345599999996
+    },
+    {
+      "z_mm": 184.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0014090337519645536,
+      "objective_profiled_x": 0.00040457279300831094,
+      "profiled_x_mm": 28.0,
+      "profiled_scale": 1.3521730540409755,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.264155527901234
+    },
+    {
+      "z_mm": 185.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0014730413911318652,
+      "objective_profiled_x": 0.00042096710440884497,
+      "profiled_x_mm": 28.0,
+      "profiled_scale": 1.3800619517309591,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.3137790123456794
+    },
+    {
+      "z_mm": 186.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0015375531318354283,
+      "objective_profiled_x": 0.00043950843421629125,
+      "profiled_x_mm": 28.0,
+      "profiled_scale": 1.4083842976669323,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.3642137599999997
+    },
+    {
+      "z_mm": 187.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0016025277426997826,
+      "objective_profiled_x": 0.00046010429226907084,
+      "profiled_x_mm": 28.0,
+      "profiled_scale": 1.4371446598364115,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.415468564938271
+    },
+    {
+      "z_mm": 188.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.001667925812224586,
+      "objective_profiled_x": 0.00048266567209145623,
+      "profiled_x_mm": 28.0,
+      "profiled_scale": 1.466347630946655,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.4675522686419757
+    },
+    {
+      "z_mm": 189.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0017337096723186252,
+      "objective_profiled_x": 0.0005014714901757875,
+      "profiled_x_mm": 29.0,
+      "profiled_scale": 1.503857573474895,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.5204737600000002
+    },
+    {
+      "z_mm": 190.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0017998433251278018,
+      "objective_profiled_x": 0.0005204668699615158,
+      "profiled_x_mm": 29.0,
+      "profiled_scale": 1.534052715813948,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.5742419753086416
+    },
+    {
+      "z_mm": 191.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.001866292373009669,
+      "objective_profiled_x": 0.0005413987206255448,
+      "profiled_x_mm": 29.0,
+      "profiled_scale": 1.5647049013051177,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.6288658982716058
+    },
+    {
+      "z_mm": 192.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0019330239515140332,
+      "objective_profiled_x": 0.0005641843458937946,
+      "profiled_x_mm": 29.0,
+      "profiled_scale": 1.5958188214152844,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.68435456
+    },
+    {
+      "z_mm": 193.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0020000066652357098,
+      "objective_profiled_x": 0.0005854266358071597,
+      "profiled_x_mm": 30.0,
+      "profiled_scale": 1.635934283262362,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.7407170390123454
+    },
+    {
+      "z_mm": 194.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0020672105264113463,
+      "objective_profiled_x": 0.0006048412328319851,
+      "profiled_x_mm": 30.0,
+      "profiled_scale": 1.668084054439326,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.797962461234567
+    },
+    {
+      "z_mm": 195.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0021346068961387065,
+      "objective_profiled_x": 0.0006260813260391272,
+      "profiled_x_mm": 30.0,
+      "profiled_scale": 1.700710305871234,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.8561000000000005
+    },
+    {
+      "z_mm": 196.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0022021684281016054,
+      "objective_profiled_x": 0.0006490700421012349,
+      "profiled_x_mm": 30.0,
+      "profiled_scale": 1.7338178277856133,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.9151388760493826
+    },
+    {
+      "z_mm": 197.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0022698690146899124,
+      "objective_profiled_x": 0.0006722835648248655,
+      "profiled_x_mm": 31.0,
+      "profiled_scale": 1.7766587345926603,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 2.9750883575308635
+    },
+    {
+      "z_mm": 198.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.00233768373540852,
+      "objective_profiled_x": 0.000692084099462882,
+      "profiled_x_mm": 31.0,
+      "profiled_scale": 1.8108467345383457,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 3.0359577600000005
+    },
+    {
+      "z_mm": 199.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0024055888074741684,
+      "objective_profiled_x": 0.0007136058278497426,
+      "profiled_x_mm": 31.0,
+      "profiled_scale": 1.8455310620783945,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 3.097756446419753
+    },
+    {
+      "z_mm": 200.0,
+      "fixed_x_mm": 20.0,
+      "objective_at_fixed_x": 0.0024735615385038157,
+      "objective_profiled_x": 0.0007367772516593094,
+      "profiled_x_mm": 31.0,
+      "profiled_scale": 1.8807166062008895,
+      "single_monostatic_channel_profiled_objective": 0.0,
+      "single_monostatic_channel_scale_over_true": 3.160493827160493
+    }
+  ],
+  "channels": [
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.49351657772600294
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.3690515574499627
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.4008899889189813
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5200938714673519
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.4360338858217817
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.4443730650293229
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.47267077374354743
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.33247728443080005
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.3853900910635976
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5095964832453995
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.4026715313102975
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.4366638528585958
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.48120731713434506
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.35572507306963747
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.43685168456340145
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5064474215569951
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.4216638997442972
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.48444414258362695
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.45381075598392023
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.3147162059386843
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.41267887717681934
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.48818362026043166
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.382150501296303
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.46734665906084
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4728759340656406
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.33485175743028345
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.3643884217921409
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5095893754151779
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4044512537716413
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.41234914418550833
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.4933606072990392
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.3668573430672102
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.4239306125292315
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5198162587070362
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.4343243356720225
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.4702173518256654
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.46875368610767804
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.3274386638306883
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -32.99038105676658,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.40386997753427195
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5050791480412345
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.3972713637923762
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        -15.66987298107781,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.4577188928912594
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4654040625403821
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.34194633926766
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -24.330127018922198,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4458825395054593
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.48883736605608075
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.40551100788677824
+    },
+    {
+      "pose_x_mm": -20.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        -7.009618943233424,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4939296782204784
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.576323863508253
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.4917383744192465
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.49639610051232536
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        12.990381056766577,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5726449325851894
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        12.990381056766577,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5470963375330035
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        12.990381056766577,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.520414616612557
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5668636281605136
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.45598363923294793
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.4895934325653664
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        4.330127018922191,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5782454934090979
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        4.330127018922191,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5216140344490903
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        4.330127018922191,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5264559223548999
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5610682388063974
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.4757503543286311
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5411858285079643
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        12.990381056766577,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5564927856134088
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        12.990381056766577,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5307176506876244
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        12.990381056766577,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5674887435737302
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5428574883975119
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.4329094708100235
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5239613352075958
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        4.330127018922191,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5525229186709093
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        4.330127018922191,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.4963849391030325
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        4.330127018922191,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5632360846849316
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5669494733772256
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4579188369939051
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4623465929084082
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        4.330127018922191,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5784123615092894
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        4.330127018922191,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5227684975323725
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        4.330127018922191,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4967733056059649
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5760903418886447
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.4900406719387767
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5254082102516449
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        12.990381056766577,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.572031328116375
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        12.990381056766577,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5460324128607354
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        12.990381056766577,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5510015762369833
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5618891075171331
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.45006824671835305
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        -12.99038105676658,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5133171575340616
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        4.330127018922191,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5727205658224314
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        4.330127018922191,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5155996126439417
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        4.330127018922191,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5520523351691762
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5415131669104615
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.4576559222400226
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        -4.330127018922195,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5518199407197432
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        12.990381056766577,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5362572635390375
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        12.990381056766577,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5109363928980125
+    },
+    {
+      "pose_x_mm": 0.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        12.990381056766577,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5783428928015532
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        15.669872981077804,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5889925644524009
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        15.669872981077804,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5726199941936192
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 1,
+      "pixel_row": 0,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        15.669872981077804,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5398748536760555
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        32.99038105676658,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5489604184567445
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        32.99038105676658,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5974346727205785
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 3,
+      "pixel_row": 0,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        32.99038105676658,
+        -12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5328023337021333
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        7.009618943233421,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5972706579497946
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        7.009618943233421,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5483688489375459
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 4,
+      "pixel_row": 1,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        7.009618943233421,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5483688489375459
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        24.33012701892219,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5721982948677059
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        24.33012701892219,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5887162368462916
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 6,
+      "pixel_row": 1,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        24.33012701892219,
+        -7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5556803528891201
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        15.669872981077804,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5721982948677059
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        15.669872981077804,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5556803528891202
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 9,
+      "pixel_row": 2,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        15.669872981077804,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5887162368462917
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        32.99038105676658,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.5320682459334631
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        32.99038105676658,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.580970054945712
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 11,
+      "pixel_row": 2,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        32.99038105676658,
+        7.5,
+        0.0
+      ],
+      "normalized_signal": 0.580970054945712
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        7.009618943233421,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.570504531462893
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        7.009618943233421,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5220302771990589
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 12,
+      "pixel_row": 3,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        7.009618943233421,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5866626162175043
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        24.33012701892219,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5453323770956494
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        24.33012701892219,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5617049473544312
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "A",
+      "pixel_id": 14,
+      "pixel_row": 3,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        24.33012701892219,
+        12.5,
+        0.0
+      ],
+      "normalized_signal": 0.5944500878719948
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        7.009618943233421,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5975297275253647
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        7.009618943233421,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5494809330902117
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 0,
+      "pixel_row": 0,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        7.009618943233421,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5174484034667765
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        24.33012701892219,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5729542232943541
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        24.33012701892219,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5891816893177415
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 2,
+      "pixel_row": 0,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        24.33012701892219,
+        -17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5242718252241917
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        15.669872981077804,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5883176775555233
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        15.669872981077804,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5716550809023422
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 5,
+      "pixel_row": 1,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        15.669872981077804,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5716550809023422
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        32.99038105676658,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5476739821065281
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        32.99038105676658,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5970025996298548
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 7,
+      "pixel_row": 1,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        32.99038105676658,
+        -2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5641168546143037
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 0,
+      "receiver_position_mm": [
+        7.009618943233421,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.591521642127263
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 1,
+      "receiver_position_mm": [
+        7.009618943233421,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5421930246039363
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 8,
+      "pixel_row": 2,
+      "pixel_column": 0,
+      "facet": 2,
+      "receiver_position_mm": [
+        7.009618943233421,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5750787696194875
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 0,
+      "receiver_position_mm": [
+        24.33012701892219,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5661008820179485
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 1,
+      "receiver_position_mm": [
+        24.33012701892219,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5827634786711297
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 10,
+      "pixel_row": 2,
+      "pixel_column": 2,
+      "facet": 2,
+      "receiver_position_mm": [
+        24.33012701892219,
+        2.5,
+        0.0
+      ],
+      "normalized_signal": 0.5827634786711297
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 0,
+      "receiver_position_mm": [
+        15.669872981077804,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5513176019298375
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 1,
+      "receiver_position_mm": [
+        15.669872981077804,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5350901359064499
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 13,
+      "pixel_row": 3,
+      "pixel_column": 1,
+      "facet": 2,
+      "receiver_position_mm": [
+        15.669872981077804,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.6
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 0,
+      "receiver_position_mm": [
+        32.99038105676658,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5121096485295371
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 1,
+      "receiver_position_mm": [
+        32.99038105676658,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5601584429646902
+    },
+    {
+      "pose_x_mm": 20.0,
+      "slot": "B",
+      "pixel_id": 15,
+      "pixel_row": 3,
+      "pixel_column": 3,
+      "facet": 2,
+      "receiver_position_mm": [
+        32.99038105676658,
+        17.5,
+        0.0
+      ],
+      "normalized_signal": 0.5921909725881255
+    }
+  ],
+  "limitations": [
+    "One static isolated Lambertian patch; y, surface normal and area known.",
+    "Candidate geometry and exact forward model generate and fit the same noiseless data.",
+    "Known emitter power and channel calibration; one shared unknown reflectance/gain scale.",
+    "No unknown per-channel gains, ambient, crosstalk, cover layer, occlusion or motion errors.",
+    "Each small emitter, patch and facet is approximated by its center and normal.",
+    "All receiver facets are treated as co-located at their pixel center.",
+    "No proof of uniqueness outside the chosen grid or for a general scene.",
+    "No range, resolution, precision, noise robustness, novelty or hardware feasibility established."
+  ]
+}
