@@ -31,3 +31,7 @@ The same geometry is used in two distinct idealized calculations. The [single-pa
 ## Additional small-tilt candidates
 
 The 30° geometry above remains the original worked example. A later [small-tilt study](../studies/small-tilt-2026-09-28/README.md) evaluates 5–45°, including the author's new 15° candidate. At the same 9 mm base side, 15° gives height 0.696 mm. Facet-normal tilt must not be confused with acceptance-cone half-angle. The broad cosine model has no frontal acceptance hole at 45°; actual narrow optics could create one. Small tilts reduce direct coupling but also reduce angular diversity. No candidate is declared optimal.
+
+## Additional orientation families, 29 September
+
+The preceding figures retain the original all-upright example. The author now allows both that layout and a mixed-orientation family. Three-facet cells with 0°/60° orientations supply six facet-normal azimuths across the panel; four-facet cells with 0°/45° orientations supply eight. A column translation leaves each normal unchanged. The [component/direction calculation](../studies/component-baseline-2026-09-29/README.md) gives both families and distinguishes channel count from orientation count. Actual mixed-orientation footprints require a new clearance and coupling calculation for the chosen hardware.

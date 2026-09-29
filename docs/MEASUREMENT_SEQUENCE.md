@@ -1,8 +1,14 @@
 # From changing light measurements to a scene map
 
-**Conceptual sequence, not an implemented general reconstruction algorithm.** The [main manuscript](../FACETCENSUS.md) describes the sensing architecture; the [reconstruction design](RECONSTRUCTION_DESIGN.md) specifies a candidate estimator and its evaluation.
+**Conceptual acquisition and reconstruction sequence.** The [main manuscript](../FACETCENSUS.md) describes the sensing architecture; the [reconstruction design](RECONSTRUCTION_DESIGN.md) specifies a candidate estimator and its evaluation.
 
 Сначала элементы панели действительно могут давать лишь грубые световые «пятна»: набор более сильных и более слабых сигналов. Однако такое пятно относится к показаниям приёмников, а не обязательно к отдельному предмету или точке пространства. Когда вся панель перемещается, меняются положения приёмников, направления их чувствительности и условия подсветки. Алгоритм сопоставляет эти изменения с несколькими возможными объяснениями сцены: где находятся поверхности и как они отражают свет. Затем он проверяет, какое объяснение предсказывает весь набор показаний, и уточняет карту. Цвет требует независимых спектральных измерений; три наклонные грани сами по себе не являются RGB. Новые наблюдения уточняют состояние карты, а не обязательно переобучают нейросеть. Сходные сигналы могут соответствовать разным сценам, поэтому неопределённые области нельзя автоматически считать восстановленными.
+
+## Moving surfaces and the evolving estimate
+
+Motion enters the proposed observation model through both panel pose and object transforms. Registered panel motion changes receiver positions and response directions. A tracked moving object has a separate transform for each acquisition; its responses are predicted in that time-dependent geometry. During-exposure motion requires temporal integration or appropriately shorter acquisition. Static background and moving objects therefore retain separate state updates.
+
+The intended improvement is a more constrained estimate of surfaces and appearance as observations accumulate. Raw mixed responses remain the inputs. The first implemented sparse example uses static objects; dynamic association is an extension specified for a subsequent experiment.
 
 ## What the panel records
 
@@ -45,4 +51,4 @@ for each synchronized acquisition block:
 
 The map retains geometry, appearance, observation support and uncertainty. Learned regularization may propose updates, but trained weights can remain fixed while the scene state changes. Appearance unsupported by measurements remains a prediction.
 
-The numerical calculations remain much narrower. An earlier example fits two patches with known lateral positions; a [subsequent demonstrator](../studies/scene-reconstruction-2026-09-28/README.md) jointly fits all xyz and three-band reflectances for three patches with known count, areas and normals, including registered translations/rotations and sequential re-fitting. Neither executes the complete general mapping sequence, reconstructs arbitrary objects, or trains a reconstruction network. The sequence combines established modeling and estimation principles into a proposed experiment; it makes no novelty or demonstrated-performance claim.
+The accompanying numerical examples illustrate this sequence in bounded tasks. The earlier example fits two patches with known lateral positions. The [three-patch demonstrator](../studies/scene-reconstruction-2026-09-28/README.md) jointly fits xyz and three-band reflectances with known patch count, areas and normals, using registered translations/rotations and sequential re-fitting. The [experimental design](RECONSTRUCTION_DESIGN.md) extends the sequence toward unknown surfaces, calibrated uncertainty and tracked motion.

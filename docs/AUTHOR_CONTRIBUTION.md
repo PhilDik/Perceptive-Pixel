@@ -16,6 +16,10 @@ This note identifies the proposals made in the [manuscript](../FACETCENSUS.md) a
 
 3. **Accumulate a persistent scene state with explicit observation support.** New registered measurements revise geometry, appearance, visibility and uncertainty instead of requiring a complete independent reconstruction at every exposure. Store which observations support each estimate, permit contradictions and reinitialization, and keep prior-based completion separate from measured support. If a pretrained regularizer is used, its weights remain fixed during these updates: the evolving object is the scene state. The proposal must be evaluated against independent reconstructions at the same total measurement budget.
 
+## Directional acquisition emphasis, 29 September
+
+The author emphasizes preserving distinct receiving-region responses and reducing direct illumination of neighboring subelements through geometry and scheduling. Directional diversity and optical coupling are separate quantities. Both original and mixed-orientation triangular candidates remain available; the first implementation follows independently accessible components. Registered panel motion and tracked object motion enter different transforms in the scene operator, with new measurements refining scene state. Earlier synthetic angle rankings remain study-specific evidence.
+
 ## Required architecture and optional implementations
 
 The required architecture consists of accessible optical measurements, a calibrated measurement model, recorded acquisition states and registered panel poses, joint scene estimation, and persistent updates with support and uncertainty. Its intended scope includes geometry and surface appearance; an implementation with inadequate spectral information must restrict its appearance output accordingly.

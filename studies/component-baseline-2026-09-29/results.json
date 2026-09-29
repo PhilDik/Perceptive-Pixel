@@ -1,0 +1,232 @@
+{
+  "status": "component planning arithmetic",
+  "fixture_tilt_deg": 30.0,
+  "receiver_example": "Vishay BPW34",
+  "cases": [
+    {
+      "case": "triangle_3",
+      "facets_per_cell": 3,
+      "cell_rotations_deg": [
+        0
+      ],
+      "normal_azimuths_deg": [
+        30,
+        150,
+        270
+      ],
+      "distinct_normals": 3,
+      "normals_xyz": [
+        [
+          0.4330127018922193,
+          0.24999999999999994,
+          0.8660254037844387
+        ],
+        [
+          -0.4330127018922193,
+          0.24999999999999994,
+          0.8660254037844387
+        ],
+        [
+          -9.184850993605147e-17,
+          -0.49999999999999994,
+          0.8660254037844387
+        ]
+      ],
+      "cells_at_24_receivers": 8,
+      "independent_receiver_channels": 24,
+      "total_sensitive_area_mm2": 180.0,
+      "minimum_base_side_body_only_mm": 18.299999999999997,
+      "minimum_base_side_rectangular_1mm_keepout_mm": 26.299999999999997
+    },
+    {
+      "case": "triangle_6",
+      "facets_per_cell": 3,
+      "cell_rotations_deg": [
+        0,
+        60
+      ],
+      "normal_azimuths_deg": [
+        30,
+        90,
+        150,
+        210,
+        270,
+        330
+      ],
+      "distinct_normals": 6,
+      "normals_xyz": [
+        [
+          0.4330127018922193,
+          0.24999999999999994,
+          0.8660254037844387
+        ],
+        [
+          3.0616169978683824e-17,
+          0.49999999999999994,
+          0.8660254037844387
+        ],
+        [
+          -0.4330127018922193,
+          0.24999999999999994,
+          0.8660254037844387
+        ],
+        [
+          -0.43301270189221924,
+          -0.25,
+          0.8660254037844387
+        ],
+        [
+          -9.184850993605147e-17,
+          -0.49999999999999994,
+          0.8660254037844387
+        ],
+        [
+          0.43301270189221913,
+          -0.25000000000000017,
+          0.8660254037844387
+        ]
+      ],
+      "cells_at_24_receivers": 8,
+      "independent_receiver_channels": 24,
+      "total_sensitive_area_mm2": 180.0,
+      "minimum_base_side_body_only_mm": 18.299999999999997,
+      "minimum_base_side_rectangular_1mm_keepout_mm": 26.299999999999997
+    },
+    {
+      "case": "square_4",
+      "facets_per_cell": 4,
+      "cell_rotations_deg": [
+        0
+      ],
+      "normal_azimuths_deg": [
+        45,
+        135,
+        225,
+        315
+      ],
+      "distinct_normals": 4,
+      "normals_xyz": [
+        [
+          0.35355339059327373,
+          0.35355339059327373,
+          0.8660254037844387
+        ],
+        [
+          -0.3535533905932737,
+          0.35355339059327373,
+          0.8660254037844387
+        ],
+        [
+          -0.3535533905932738,
+          -0.3535533905932737,
+          0.8660254037844387
+        ],
+        [
+          0.3535533905932736,
+          -0.3535533905932738,
+          0.8660254037844387
+        ]
+      ],
+      "cells_at_24_receivers": 6,
+      "independent_receiver_channels": 24,
+      "total_sensitive_area_mm2": 180.0,
+      "minimum_base_side_body_only_mm": 12.847818472546173,
+      "minimum_base_side_rectangular_1mm_keepout_mm": 18.311920087683927
+    },
+    {
+      "case": "square_8",
+      "facets_per_cell": 4,
+      "cell_rotations_deg": [
+        0,
+        45
+      ],
+      "normal_azimuths_deg": [
+        0,
+        45,
+        90,
+        135,
+        180,
+        225,
+        270,
+        315
+      ],
+      "distinct_normals": 8,
+      "normals_xyz": [
+        [
+          0.49999999999999994,
+          0.0,
+          0.8660254037844387
+        ],
+        [
+          0.35355339059327373,
+          0.35355339059327373,
+          0.8660254037844387
+        ],
+        [
+          3.0616169978683824e-17,
+          0.49999999999999994,
+          0.8660254037844387
+        ],
+        [
+          -0.3535533905932737,
+          0.35355339059327373,
+          0.8660254037844387
+        ],
+        [
+          -0.49999999999999994,
+          6.123233995736765e-17,
+          0.8660254037844387
+        ],
+        [
+          -0.3535533905932738,
+          -0.3535533905932737,
+          0.8660254037844387
+        ],
+        [
+          -9.184850993605147e-17,
+          -0.49999999999999994,
+          0.8660254037844387
+        ],
+        [
+          0.3535533905932736,
+          -0.3535533905932738,
+          0.8660254037844387
+        ]
+      ],
+      "cells_at_24_receivers": 6,
+      "independent_receiver_channels": 24,
+      "total_sensitive_area_mm2": 180.0,
+      "minimum_base_side_body_only_mm": 12.847818472546173,
+      "minimum_base_side_rectangular_1mm_keepout_mm": 18.311920087683927
+    }
+  ],
+  "flat_distinct_normals": 1,
+  "datasheet_anchor": {
+    "wavelength_nm": 950,
+    "reverse_bias_V": 5,
+    "temperature_C": 25,
+    "irradiance_W_m2": 10,
+    "incident_power_W": 7.5e-05,
+    "typical_current_A": 5e-05,
+    "derived_typical_responsivity_A_W": 0.6666666666666667
+  },
+  "packaging_scope": "body/envelope fits on a side face; lead bending, PCB, 3D collisions, masks and carrier spacing require mechanical design",
+  "coupling_from_prior_model": {
+    "original_source_sha256": "e78407f5bbe12b2fcfe7ba342bf75d42662ef6f61a90101da2b93e735890d7e1",
+    "source_model": "same-orientation whole Lambertian facets, finite 4x4 panel, 45 degrees, checkerboard slots",
+    "fractions": {
+      "aligned": 0.04819008268515911,
+      "shifted": 0.041028455006060185,
+      "vertical": 0.03868034150134389
+    },
+    "pure_stagger_relative_reduction": 0.14861206455876164,
+    "author_lattice_relative_reduction": 0.19733813793068866
+  },
+  "checks": {
+    "unit_normals": true,
+    "expected_direction_counts": true,
+    "balanced_24_channel_budget": true,
+    "rectangle_fit_equalities": true,
+    "flat_collapse": true
+  }
+}

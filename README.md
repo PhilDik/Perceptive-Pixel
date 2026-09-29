@@ -2,57 +2,27 @@
 
 **A census of surfaces — перепись поверхностей.**
 
-**Display-integrated optical sensing for scene geometry and surface appearance.**
+Philipp Dik · research concept · technical publication `2026.09.29`
 
-Research concept by Philipp Dik · technical publication `2026.09.28.1`
+FacetCensus proposes a display-associated sensing matrix that keeps optical channels separate and uses their changes across registered panel motion, illumination and tracked scene motion to update a persistent map of surface geometry and appearance. Facet orientation supplies directional diversity; placement and scheduling control unwanted light transfer between elements.
 
-FacetCensus investigates how calibrated measurements across a display-associated sensing matrix, illumination states and registered panel motion could update a model of the visible environment: surfaces, appearance, motion, visibility and uncertainty. Planar photodiodes, dual-function light-responsive pixels and independently read optical regions are candidate implementations. A staggered three-facet pyramid is one example, not a requirement.
+![Conceptual system](figures/01-system.svg)
 
-![Complete system](figures/01-system.svg)
+Read the **[manuscript](FACETCENSUS.md)** or the **[Russian overview](OVERVIEW_RU.md)**.
 
-Read the **[manuscript](FACETCENSUS.md)** or the **[Russian overview](OVERVIEW_RU.md)**. The scene illustrations are conceptual; no reconstructed environment or fabricated FacetCensus device is presented.
+## Architecture and implementation
 
-## Proposed implementation
+- [Measurement sequence](docs/MEASUREMENT_SEQUENCE.md): raw mixed responses, changing acquisition states and scene updates.
+- [Reconstruction design](docs/RECONSTRUCTION_DESIGN.md): calibrated forward model, physical inversion, optional learning and persistent state.
+- [Available-component baseline](studies/component-baseline-2026-09-29/README.md): documented hardware paths, channel-direction counts and fixture arithmetic.
+- [Hardware interfaces](docs/HARDWARE_PATHS.md), [candidate geometry](docs/GEOMETRY_EXAMPLE.md), [author contribution](docs/AUTHOR_CONTRIBUTION.md) and [related work](research/RELATED_WORK.md).
 
-- [Author contribution and scope](docs/AUTHOR_CONTRIBUTION.md): three explicit proposals, known precedents and unresolved claims; the architecture is not limited to pyramids or learning.
+## Supporting calculations
 
-- [Measurement sequence](docs/MEASUREMENT_SEQUENCE.md): compare raw mixed responses as the whole panel moves, then jointly estimate surface coordinates, colour where supported by spectral measurements, and uncertainty. The sequence explains how candidate scenes predict the complete observations; an individual reading is not a ready-made spatial point.
-- [Proposed reconstruction design](docs/RECONSTRUCTION_DESIGN.md): concrete scene state, physical inversion, optional learning, sequential updates and falsifiable comparisons. The general system remains a design; the separate three-patch demonstrator implements a restricted physical inversion without learning.
-- [Existing-screen hardware paths](docs/HARDWARE_PATHS.md): the distinction between available light sensing and the readout needed for spatial reconstruction.
+The [numerical appendix](docs/NUMERICAL_STUDIES.md) records each study's assumptions and findings. It includes the [layout/coupling experiment](studies/layout-noise-2026-09-27/README.md), a [restricted joint position/appearance example](studies/scene-reconstruction-2026-09-28/README.md), and earlier angular/depth diagnostics. Angle rankings describe their particular synthetic tasks; hardware selection uses the response and coupling measured for the chosen components.
 
-## Included evidence
+Each study directory contains its data, reproduction commands and dependencies. The new [component calculation](studies/component-baseline-2026-09-29/calculate.py) uses Python's standard library. Earlier examples use [NumPy and SciPy](requirements.txt); the [larger studies](studies/layout-noise-2026-09-27/requirements.txt) retain their pinned environment.
 
-- [Joint position/appearance demonstrator](studies/scene-reconstruction-2026-09-28/README.md): runnable synthetic inversion of all xyz and three-band reflectances of three patches, static/motion controls, retained failures and a sequential state example. Known count/area/normals; no full textured scene or trained network.
+## Publication record
 
-- [Conditional tilt selection](studies/angle-selection-2026-09-28/README.md): 20,160 additional noisy fits with planar and equal-area controls. Working candidate 15° under an explicit rule; observed minimum 20° on 12 new scenes. Results depend on assumed leakage and do not establish a hardware optimum.
-
-- [Small-tilt diagnostic](studies/small-tilt-2026-09-28/README.md): 5–45°, including the 15° candidate; frontal response, direct coupling and the loss of angular contrast, with separate hypothetical acceptance cones.
-
-- [Layout, coupling and noisy depth study](studies/layout-noise-2026-09-27/README.md): 18 configurations and 8,800 restricted noisy fits, with retained failure flags and a correction identifying the untested alternating-square variant.
-- [Related work](research/RELATED_WORK.md): existing integrated receiver arrays, surface colour scanning and computational imaging, with source-access limits.
-- [Single-patch worked example](example/EXAMPLE.md): 144 synthetic readings jointly fitted under ideal assumptions.
-- [Angular layout comparison](angular-comparison/README.md): finite-area geometric calculation at matched density; source, results and independent checks.
-- [Candidate pyramid geometry](docs/GEOMETRY_EXAMPLE.md): all bases point upward, neighboring columns shift vertically.
-- [Change history](CHANGELOG.md), [citation metadata](CITATION.cff), and the [earlier public text](archive/2026-09-25/README.md).
-
-The included calculations do not establish arbitrary-scene reconstruction, texture fidelity, manufacturing feasibility, overall novelty or a system performance advantage. Detector values cannot simply be projected onto a mesh without accounting for optical mixing, geometry, visibility and illumination.
-
-## Reproduce the limited calculations
-
-Install the numerical dependencies listed in [requirements.txt](requirements.txt), then run from the repository root:
-
-```text
-python example/model.py
-python example/check_geometry.py
-python angular-comparison/compare_layouts.py --subdivisions 8
-python angular-comparison/compare_layouts.py --subdivisions 32
-python angular-comparison/refine_results.py
-python angular-comparison/refine_minima.py
-python angular-comparison/independent_ray_check.py
-```
-
-The additional noisy study has its own [reproduction commands and pinned dependencies](studies/layout-noise-2026-09-27/README.md).
-
-These scripts reproduce the numerical examples, not a complete scene reconstruction pipeline. Figures and numerical records are included for readers who do not run the code.
-
-Earlier public revisions used **Perceptive Pixel** and **FacetSensus**; the repository URL and compatibility links are retained for continuity. Version **2026.09.28.1** adopts **FacetCensus**, from *facet* and *census*: a census of surfaces. This is a naming and editorial update to the expanded technical publication of 28 September 2026; its scientific methods and results are unchanged. See the [change record](CHANGELOG.md) and [citation metadata](CITATION.cff); cite the specific Git commit to identify the exact published contents. The new results are not attributed to the earlier public revision.
+Earlier names were **Perceptive Pixel** and **FacetSensus**. The repository address and article compatibility links preserve continuity. See the [change record](CHANGELOG.md), [citation metadata](CITATION.cff) and [original public archive](archive/2026-09-25/README.md). Cite a specific Git commit to identify the exact text, code and results.

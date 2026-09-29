@@ -1,6 +1,8 @@
 # Conditional tilt selection and planar controls
 
-28 September 2026. Synthetic, restricted two-patch inversion; no fabricated sensing display or learned scene reconstruction.
+28 September 2026. Synthetic, restricted two-patch inversion.
+
+**Interpretation update, 29 September:** the angle-selection rule below belongs to this historical numerical task. The current [concept article](../../FACETCENSUS.md) selects hardware geometry through measured directional response and per-channel coupling; it prescribes no system-wide optimum angle.
 
 **15° is the working candidate under a predeclared smallest-within-10% rule; 20° has the lowest observed mean error in the 12-scene challenge.** Their descriptive difference intervals include zero. Prioritize 15–25° for subsequent investigation, retaining 30° as a control because it won the earlier three-scene validation. This is not a universal optimum or a confidence interval for the best angle.
 

@@ -46,3 +46,7 @@ Ordinary diagnostic registers, display memory readback, proximity gestures, cont
 The reconstruction architecture can first be investigated using calibrated planar receivers. It must not depend on unverified fabrication of independently readable emitting facets. Conversely, a separate receiver experiment cannot validate the proposed reversible facets. Each path needs its own calibration, readout and optical response, with the same resource accounting in comparisons.
 
 An extended rotating panel may add angular diversity and receiver displacement, but neither an inertial sensor nor panel rotation alone guarantees metric depth. The [reconstruction design](RECONSTRUCTION_DESIGN.md) specifies how poses, unknown regions and model mismatch should enter the proposed estimator.
+
+## Available-component path, 29 September
+
+The [component record](../studies/component-baseline-2026-09-29/README.md) selects a small fixture with independent element access: a discrete-LED branch for same-junction switching and a documented separate-photodiode control for receiving geometry. It includes current vendor availability observations and a reproducible mounting/direction calculation. Official micro:bit support further specifies that V2 light sensing uses the top row; the public light-level call remains scalar. The initial receiver measurements supply the angular response and per-channel coupling used in subsequent reconstruction.

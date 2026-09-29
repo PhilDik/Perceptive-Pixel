@@ -1,5 +1,12 @@
 # Change record
 
+## 2026.09.29 — directional acquisition and component path
+
+- Reframed the main article and Russian overview around separate directional responses, neighbor coupling and persistent surface reconstruction. Concept status is stated at the start; model assumptions accompany the relevant claims.
+- Moved the earlier detailed numerical summary into `docs/NUMERICAL_STUDIES.md`; angle rankings remain specific to their original tasks. Existing experimental data, solver outcomes and historical archives are preserved.
+- Distinguished registered panel motion, tracked object motion and within-exposure integration. Retained the implemented static sparse example and the proposed dynamic extension as separate stages.
+- Added exact 3/6/4/8 normal-direction counts, a balanced receiver budget, catalogue-component fixture arithmetic and a dated availability record. No new reconstruction simulation or measured hardware result is introduced by that calculation.
+
 ## 2026.09.28.1 — FacetCensus naming update
 
 - Renamed FacetSensus to **FacetCensus**, combining *facet* and *census*, with the explanatory phrase **a census of surfaces** / **перепись поверхностей**.
